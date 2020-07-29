@@ -1,0 +1,136 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1240px;
+    padding: 0 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Cuprum';
+    letter-spacing: -1px;
+}
+
+header .container {
+    min-height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .header_contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+header .header_contacts__item {
+    color: #6fb52a;
+}
+
+header .logo {
+    font-size: 40px;
+    font-family: 'Lobster';
+    color: #6fb52a;
+}
+
+header .cart {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+}
+
+header .cart:hover {
+    background-color: #6fb52a;
+}
+
+header .cart:hover i {
+    filter: invert(1);
+}
+
+header .cart i {
+    margin: 8px auto;
+    width: 30px;
+    height: 30px;
+    display: block;
+    background: url("https://api.iconify.design/ion-ios-cart-outline.svg") no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+nav {
+    height: 60px;
+    background-color: #6fb52a;
+    padding-top: 20px;
+}
+
+nav .container {
+    text-align: center;
+}
+
+nav .cats__wrapper {
+    vertical-align: 10px;
+    display: inline-block;
+}
+
+nav .cats__wrapper ul {
+    color: #fff;
+    text-transform: uppercase;
+    display: flex;
+}
+
+nav .cats__wrapper ul li {
+    position: relative;
+    letter-spacing: .4px;
+    color: #fff;
+    margin: 0 20px;
+}
+
+nav .cats__wrapper ul li a {
+    color: #fff;
+}
+
+nav .cats__wrapper ul li:after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transition: all .2s;
+}
+
+nav .cats__wrapper ul li:hover::after {
+    width: 100%;
+}
+
+main {
+    height: 500px;
+}
+
+footer {
+    letter-spacing: .3px;
+    color: #fff;
+    padding-top: 15px;
+    text-align: center;
+    min-height: 50px;
+    background-color: #424242;
+}
+
+/*# sourceMappingURL=layout.css.map */

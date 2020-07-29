@@ -1,0 +1,186 @@
+$green_color: #6fb52a;
+$border: #f2f2f2;
+/* VARS*/
+
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+a{
+    text-decoration: none;
+    
+}
+ul{
+    list-style: none;
+}
+.container{
+    max-width: 1240px;
+    padding: 0 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+body{
+    font-family: 'Cuprum';
+    letter-spacing: -.3px;
+}
+header{
+    .container{
+        min-height: 90px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header_contacts{
+        display: flex;
+        flex-direction: column;
+        &__item{
+            color: $green_color;
+        }
+    }
+    .logo{
+        font-size: 40px;
+        font-family: 'Lobster';
+        color: $green_color;
+    }
+    .cart{
+        outline: none;
+        border: none;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        background-color: #eee;
+        &:hover{
+            background-color: $green_color;
+            i{
+                filter: invert(1);
+            }
+        }
+        i{
+            margin: 8px auto;
+            width: 30px;
+            height: 30px;
+            display: block;
+            background: url('https://api.iconify.design/ion-ios-cart-outline.svg') no-repeat;
+            background-position: center center;
+            background-size: 100% 100%;
+        }
+    }
+}
+nav{
+    height: 60px;
+    background-color: $green_color;
+    padding-top: 20px;
+    .container { text-align: center; }
+    .cats__wrapper{
+        vertical-align: 10px;
+        display: inline-block;
+        ul{
+            color: #fff;
+            text-transform: uppercase;
+            display: flex;
+            li{
+
+                a{color: #fff;}
+                position: relative;
+                letter-spacing: .4px;
+                color: #fff;
+                margin: 0 20px;
+                &:after{
+                    content: '';
+                    position: absolute;
+                    height: 2px;
+                    width: 0;
+                    bottom: 0;
+                    left: 0;
+                    background-color: #fff;
+                    transition: all .2s;
+                }
+                &:hover::after{
+                    width: 100%;
+                }
+            }
+        }
+    }   
+}
+footer{
+    letter-spacing: .3px;
+    color: #fff;
+    padding-top: 15px;
+    text-align: center;
+    min-height: 50px;
+    background-color: #424242;
+}
+main.all_collections{
+    & .wrapper{
+
+        margin-top: 58px;
+    }
+    aside{
+        background-color: $green_color;
+        float: left;
+        max-width: 285px;
+        height: 100px;
+        width: 100%;
+    }
+    section{
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .cat_top{
+        padding-bottom: 10px;
+        border-bottom: 1px solid $border;
+        display: flex;
+        justify-content: space-between;
+        h1{
+            font-size: 1.6em;
+        }
+        select{
+            background: #fff;
+            border: 1px solid $border;
+            cursor: pointer;
+            padding: 3px 20px 3px 5px;
+            position: relative;
+            width: auto;
+            font-family: "Cuprum";
+            font-size: 1em;
+        }
+    }
+    .categories{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px 0;
+        border-bottom: 1px solid $border;
+        &__item{
+            cursor: pointer;
+            width: 133px;
+            height: 189px;
+            border: 1px solid $border;
+            margin-right: 20px;
+            a{
+                display: block;
+                text-align: center;
+                span{
+                    color: $green_color;
+                    text-transform: uppercase;
+                    text-decoration: underline;
+                    letter-spacing: .5px;
+                }
+            }
+            &:hover span{
+                text-decoration: none;
+            }
+        }
+        .cat_img{
+            display: block;
+            margin: 0 auto;
+            width: 110px;
+            height: 110px;
+            margin-bottom: 40px;
+        }
+    }
+}
