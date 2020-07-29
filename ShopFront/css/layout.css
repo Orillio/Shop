@@ -1,0 +1,173 @@
+/* VARS*/
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+.clear {
+  clear: both; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+.container {
+  max-width: 1240px;
+  padding: 0 20px;
+  width: 100%;
+  margin: 0 auto; }
+
+body {
+  font-family: 'Cuprum';
+  letter-spacing: -.3px; }
+
+header .container {
+  min-height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+header .header_contacts {
+  display: flex;
+  flex-direction: column; }
+  header .header_contacts__item {
+    color: #6fb52a; }
+header .logo {
+  font-size: 40px;
+  font-family: 'Lobster';
+  color: #6fb52a; }
+header .cart {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background-color: #eee; }
+  header .cart:hover {
+    background-color: #6fb52a; }
+    header .cart:hover i {
+      filter: invert(1); }
+  header .cart i {
+    margin: 8px auto;
+    width: 30px;
+    height: 30px;
+    display: block;
+    background: url("https://api.iconify.design/ion-ios-cart-outline.svg") no-repeat;
+    background-position: center center;
+    background-size: 100% 100%; }
+
+nav {
+  height: 60px;
+  background-color: #6fb52a;
+  padding-top: 20px; }
+  nav .container {
+    text-align: center; }
+  nav .cats__wrapper {
+    vertical-align: 10px;
+    display: inline-block; }
+    nav .cats__wrapper ul {
+      color: #fff;
+      text-transform: uppercase;
+      display: flex; }
+      nav .cats__wrapper ul li {
+        position: relative;
+        letter-spacing: .4px;
+        color: #fff;
+        margin: 0 20px; }
+        nav .cats__wrapper ul li a {
+          color: #fff; }
+        nav .cats__wrapper ul li:after {
+          content: '';
+          position: absolute;
+          height: 2px;
+          width: 0;
+          bottom: 0;
+          left: 0;
+          background-color: #fff;
+          transition: all .2s; }
+        nav .cats__wrapper ul li:hover::after {
+          width: 100%; }
+
+footer {
+  letter-spacing: .3px;
+  color: #fff;
+  padding-top: 15px;
+  text-align: center;
+  min-height: 50px;
+  background-color: #424242; }
+
+main.all_collections .wrapper {
+  margin-top: 58px; }
+main.all_collections aside {
+  background-color: #6fb52a;
+  float: left;
+  max-width: 285px;
+  height: 100px;
+  width: 100%; }
+main.all_collections section {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column; }
+main.all_collections .cat_top {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f2f2f2;
+  display: flex;
+  justify-content: space-between; }
+  main.all_collections .cat_top h1 {
+    font-size: 1.6em; }
+  main.all_collections .cat_top select {
+    background: #fff;
+    border: 1px solid #f2f2f2;
+    cursor: pointer;
+    padding: 3px 20px 3px 5px;
+    position: relative;
+    width: auto;
+    font-family: "Cuprum";
+    font-size: 1em; }
+main.all_collections .categories {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  border-bottom: 1px solid #f2f2f2; }
+  main.all_collections .categories__item {
+    cursor: pointer;
+    width: 133px;
+    height: 189px;
+    border: 1px solid #f2f2f2;
+    margin-right: 20px; }
+    main.all_collections .categories__item a {
+      display: block;
+      text-align: center; }
+      main.all_collections .categories__item a span {
+        color: #6fb52a;
+        text-transform: uppercase;
+        text-decoration: underline;
+        letter-spacing: .5px; }
+    main.all_collections .categories__item:hover span {
+      text-decoration: none; }
+  main.all_collections .categories .cat_img {
+    display: block;
+    margin: 0 auto;
+    width: 110px;
+    height: 110px;
+    margin-bottom: 40px; }
+main.all_collections .products {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap; }
+  main.all_collections .products__item {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #f2f2f2;
+    max-width: 285px;
+    max-height: 358px;
+    width: 100%;
+    height: 100%; }
+
+.audio_main {
+  background-color: #000;
+  width: 100px;
+  height: 100px; }
+
+/*# sourceMappingURL=layout.css.map */
