@@ -14,7 +14,6 @@ namespace Shop.DataContext
         public DbSet<Sofa> Sofas { get; set; }
         public ProductContext()
         {
-            Database.EnsureCreated();
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

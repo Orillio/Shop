@@ -12,10 +12,13 @@ $border: #f2f2f2;
 }
 a{
     text-decoration: none;
-    
 }
 ul{
     list-style: none;
+}
+button{
+    outline: none;
+    cursor: pointer;
 }
 .container{
     max-width: 1240px;
@@ -26,8 +29,28 @@ ul{
 body{
     font-family: 'Cuprum';
     letter-spacing: -.3px;
+    .top_toolbar{
+        background: #6fb52a;
+        color: #ffffff;
+        box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.3);
+        padding-top: 5px;
+        padding-bottom: 5px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1050;
+        height: 50px;
+        display: none;
+        @media (max-width: 500px){display: block;}
+        
+    }
 }
 header{
+    @media (max-width: 500px){
+        margin-top: 50px;
+        border-bottom: 1px solid $border;
+    }
     .container{
         min-height: 90px;
         display: flex;
@@ -69,8 +92,14 @@ header{
             background-size: 100% 100%;
         }
     }
+    @media (max-width: 500px){
+        .header_contacts{display: none;}
+        .cart{display: none;}
+        .container{justify-content: center;}
+    }
 }
 nav{
+    @media (max-width: 500px){display: none;}
     height: 60px;
     background-color: $green_color;
     padding-top: 20px;
@@ -104,7 +133,7 @@ nav{
                 }
             }
         }
-    }   
+    }
 }
 footer{
     letter-spacing: .3px;
@@ -115,21 +144,57 @@ footer{
     background-color: #424242;
 }
 main.all_collections{
-    & .wrapper{
-
+    .wrapper{
         margin-top: 58px;
     }
     aside{
-        background-color: $green_color;
         float: left;
-        max-width: 285px;
+        max-width: 33%;
         height: 100px;
         width: 100%;
+        @media (max-width: 650px){
+            float: none;
+        }
+        .filter_button{
+            padding: 10px 12px;
+            border: 0;
+            background-color: $green_color;
+            display: flex;
+            &:hover{
+               background-color: #000;
+            }
+            span:nth-child(1){
+                color: #fff;
+                font-family: 'Cuprum';
+                font-size: 16px;
+            }
+            span:nth-child(2){
+                background: url(../img/svg-icons/down-arrow.svg) no-repeat;
+                margin-left: 5px;
+                margin-top: 3px;
+                vertical-align: middle;
+                padding-left: 14px;
+                padding-top: 14px;
+                filter: invert(1);
+                transition: all .2s ease;
+            }
+        }
+        .filter_active{
+            span:nth-child(2){
+                transform: rotate(180deg);
+            }
+        }
+        
     }
     section{
         padding-left: 20px;
         display: flex;
         flex-direction: column;
+        @media (max-width: 650px){
+            &{
+                padding: 0;
+            }
+        }
     }
     .cat_top{
         padding-bottom: 10px;
@@ -153,14 +218,21 @@ main.all_collections{
     .categories{
         display: flex;
         flex-wrap: wrap;
-        padding: 20px 0;
+        justify-content: center;
+        padding: 0 0 20px 0;
         border-bottom: 1px solid $border;
+        &__wrapper{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            width: 50%;
+        }
         &__item{
             cursor: pointer;
-            width: 133px;
+            width: 44%;
             height: 189px;
             border: 1px solid $border;
-            margin-right: 20px;
+            margin: 20px 20px 0 0;
             a{
                 display: block;
                 text-align: center;
@@ -174,6 +246,9 @@ main.all_collections{
             &:hover span{
                 text-decoration: none;
             }
+            @media (max-width: 1064px){
+                width: 100%;
+            }
         }
         .cat_img{
             display: block;
@@ -183,21 +258,49 @@ main.all_collections{
             margin-bottom: 40px;
         }
 
-        
+
     }
     .products{
         display: flex;
         justify-content: space-between;
         flex-flow: row wrap;
         &__item{
+            position: relative;
+            background-color: #fff;
             margin-top: 20px;
             padding: 20px;
             border: 1px solid $border;
-            max-width: 285px;
+            width: 32%;
             max-height: 358px;
-            width: 100%;
             height: 100%;
+            @media (max-width: 1000px){
+                &{
+                    width: 48.5%;
+                }
+            }
+            @media (max-width: 500px){
+                &{
+                    width: 100%;
+                }
+            }
+            
+            .short_desc{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                font-size: 16px;
+                p{
+                    color: $green_color;
+                }
+                h5{
+                    color: #000;
+                    margin-top: 15px;
+                }
+            }
+        }
+        .product_img{
+            width: 100%;
         }
     }
 }
-  
+/*------------------MEDIA---------------*/

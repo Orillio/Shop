@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
     <link rel="stylesheet" href="css/layout.css">
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -11,6 +12,9 @@
     <title>Shop</title>
 </head>
 <body>
+    <div class="top_toolbar">
+        
+    </div>
     <header>    
         <div class="container">
             <div class="header_contacts">
@@ -37,70 +41,109 @@
         <div class="container">
             <div class="wrapper">
                 <aside>
-    
+                    <button class="filter_button ">
+                        <span>Фильтры</span>
+                        <span></span>
+                    </button>
                 </aside>
                 <section>
                     <div class="cat_top">
                         <h1>Каталог</h1>
-                        <select name="">
+                        <select>
                             <option disabled value="">Сортировать</option>
                             <option selected value="">по возрастанию цены</option>
                             <option value="">по убыванию цены</option>
                         </select>
                     </div>
-                    <ul class="categories">
 
-                        <li class="categories__item">
-                            <a href="#">
-                                <img class="cat_img" src="img/catImg/sofas.jpg" alt="">
-                                <span>Диваны</span>
-                            </a>
+
+                    <ul class="categories">
+                        <li class="categories__wrapper">
+                            <div class="categories__item">
+                                <a href="#">
+                                    <img class="cat_img" src="img/catImg/sofas.jpg" alt="">
+                                    <span>Диваны</span>
+                                </a>
+                            </div>
+                            <div class="categories__item">
+                                <a href="#">
+                                    <img class="cat_img" src="img/catImg/armchairs.jpg" alt="">
+                                    <span>Кресла</span>
+                                </a>
+                            </div>
                         </li>
-                        
-                        <li class="categories__item">
-                            <a href="#">
-                                <img class="cat_img" src="img/catImg/armchairs.jpg" alt="">
-                                <span>Кресла</span>
-                            </a>
-                        </li>
-                        <li class="categories__item">
-                            <a href="#">
-                                <img class="cat_img" src="img/catImg/chairs.jpg" alt="">
-                                <span>Стулья</span>
-                            </a>
-                        </li>
-                        <li class="categories__item">
-                            <a href="#">
-                                <img class="cat_img" src="img/catImg/tables.jpg" alt="">
-                                <span>Столы</span>
-                            </a>
+                        <li class="categories__wrapper">
+                            <div class="categories__item">
+                                <a href="#">
+                                    <img class="cat_img" src="img/catImg/chairs.jpg" alt="">
+                                    <span>Стулья</span>
+                                </a>
+                            </div>
+                            <div class="categories__item">
+                                <a href="#">
+                                    <img class="cat_img" src="img/catImg/tables.jpg" alt="">
+                                    <span>Столы</span>
+                                </a>
+                            </div>
                         </li>
                     </ul>
+
                     <ul class="products">
                         <li class="products__item">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto doloremque totam nemo fugit, culpa neque? Aut, hic? Itaque consectetur laudantium perferendis dolore quia omnis obcaecati, fuga earum. Nisi, tenetur obcaecati?
-                            Iure ipsa, quas, debitis animi modi fuga consectetur delectus veniam quo velit officiis et molestiae sit praesentium. Magnam harum quasi, molestias sed aspernatur possimus tempora cupiditate ab provident architecto dolorum?
+                            <a href="#">
+                                <img class="product_img" src="img/sofaImg/Диван Armstrong Union Jack от Andrew Martin.jpg" alt="sofa">
+                                <div class="short_desc">
+                                    <p>Диван "Armstrong Union Jack" от Andrew Martin</p>
+                                    <h5>179000&nbsp;руб</h5>
+                                </div>
+                            </a>
                         </li>
                         <li class="products__item">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto doloremque totam nemo fugit, culpa neque? Aut, hic? Itaque consectetur laudantium perferendis dolore quia omnis obcaecati, fuga earum. Nisi, tenetur obcaecati?
-                            Iure ipsa, quas, debitis animi modi fuga consectetur delectus veniam quo velit officiis et molestiae sit praesentium. Magnam harum quasi, molestias sed aspernatur possimus tempora cupiditate ab provident architecto dolorum?
+                            <a href="#">
+                                <img class="product_img" src="img/sofaImg/Диван Armstrong Union Jack от Andrew Martin.jpg" alt="sofa">
+                                <div class="short_desc">
+                                    <p>Диван "Armstrong Union Jack" от Andrew Martin</p>
+                                    <h5>179000&nbsp;руб</h5>
+                                </div>
+                            </a>
                         </li>
                         <li class="products__item">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto doloremque totam nemo fugit, culpa neque? Aut, hic? Itaque consectetur laudantium perferendis dolore quia omnis obcaecati, fuga earum. Nisi, tenetur obcaecati?
-                            Iure ipsa, quas, debitis animi modi fuga consectetur delectus veniam quo velit officiis et molestiae sit praesentium. Magnam harum quasi, molestias sed aspernatur possimus tempora cupiditate ab provident architecto dolorum?
+                            <a href="#">
+                                <img class="product_img" src="img/sofaImg/Диван Armstrong Union Jack от Andrew Martin.jpg" alt="sofa">
+                                <div class="short_desc">
+                                    <p>Диван "Armstrong Union Jack" от Andrew Martin</p>
+                                    <h5>179000&nbsp;руб</h5>
+                                </div>
+                            </a>
                         </li>
                         <li class="products__item">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto doloremque totam nemo fugit, culpa neque? Aut, hic? Itaque consectetur laudantium perferendis dolore quia omnis obcaecati, fuga earum. Nisi, tenetur obcaecati?
-                            Iure ipsa, quas, debitis animi modi fuga consectetur delectus veniam quo velit officiis et molestiae sit praesentium. Magnam harum quasi, molestias sed aspernatur possimus tempora cupiditate ab provident architecto dolorum?
+                            <a href="#">
+                                <img class="product_img" src="img/sofaImg/Диван Armstrong Union Jack от Andrew Martin.jpg" alt="sofa">
+                                <div class="short_desc">
+                                    <p>Диван "Armstrong Union Jack" от Andrew Martin</p>
+                                    <h5>179000&nbsp;руб</h5>
+                                </div>
+                            </a>
                         </li>
                         <li class="products__item">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto doloremque totam nemo fugit, culpa neque? Aut, hic? Itaque consectetur laudantium perferendis dolore quia omnis obcaecati, fuga earum. Nisi, tenetur obcaecati?
-                            Iure ipsa, quas, debitis animi modi fuga consectetur delectus veniam quo velit officiis et molestiae sit praesentium. Magnam harum quasi, molestias sed aspernatur possimus tempora cupiditate ab provident architecto dolorum?
+                            <a href="#">
+                                <img class="product_img" src="img/sofaImg/Диван Armstrong Union Jack от Andrew Martin.jpg" alt="sofa">
+                                <div class="short_desc">
+                                    <p>Диван "Armstrong Union Jack" от Andrew Martin</p>
+                                    <h5>179000&nbsp;руб</h5>
+                                </div>
+                            </a>
                         </li>
                         <li class="products__item">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto doloremque totam nemo fugit, culpa neque? Aut, hic? Itaque consectetur laudantium perferendis dolore quia omnis obcaecati, fuga earum. Nisi, tenetur obcaecati?
-                            Iure ipsa, quas, debitis animi modi fuga consectetur delectus veniam quo velit officiis et molestiae sit praesentium. Magnam harum quasi, molestias sed aspernatur possimus tempora cupiditate ab provident architecto dolorum?
+                            <a href="#">
+                                <img class="product_img" src="img/sofaImg/Диван Armstrong Union Jack от Andrew Martin.jpg" alt="sofa">
+                                <div class="short_desc">
+                                    <p>Диван "Armstrong Union Jack" от Andrew Martin</p>
+                                    <h5>179000&nbsp;руб</h5>
+                                </div>
+                            </a>
                         </li>
+                    
                     </ul>
                 </section>
             </div>
