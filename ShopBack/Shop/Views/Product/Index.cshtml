@@ -1,0 +1,83 @@
+﻿@model ProductsViewModel
+<main class="all_collections">
+    <div class="container">
+        <div class="wrapper">
+            <aside>
+                <button class="filter_button ">
+                    <span>Фильтры</span>
+                    <span></span>
+                </button>
+            </aside>
+            <section>
+                <div class="cat_top">
+                    <h1>Каталог</h1>
+                    <select>
+                        <option disabled value="">Сортировать</option>
+                        <option selected value="">по возрастанию цены</option>
+                        <option value="">по убыванию цены</option>
+                    </select>
+                </div>
+
+                <ul class="categories">
+                    <li class="categories__wrapper">
+                        <div class="categories__item">
+                            <a asp-action="Index" asp-controller="Product" asp-route-category="Sofas">
+                                <img class="cat_img" src="img/catImg/sofas.jpg" alt="">
+                                <span>Диваны</span>
+                            </a>
+                        </div>
+                        <div class="categories__item">
+                            <a asp-action="Index" asp-controller="Product" asp-route-category="ArmChairs">
+                                <img class="cat_img" src="img/catImg/armchairs.jpg" alt="">
+                                <span>Кресла</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="categories__wrapper">
+                        <div class="categories__item">
+                            <a asp-action="Index" asp-controller="Product" asp-route-category="Chairs">
+                                <img class="cat_img" src="img/catImg/chairs.jpg" alt="">
+                                <span>Стулья</span>
+                            </a>
+                        </div>
+                        <div class="categories__item">
+                            <a asp-action="Index" asp-controller="Product" asp-route-category="Tables">
+                                <img class="cat_img" src="img/catImg/tables.jpg" alt="">
+                                <span>Столы</span>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul class="products">
+                   @foreach (var item in Model.Products)
+                    {
+                        <li class="products__item">
+                           @if (item.IsDiscount)
+                            {
+                                <div class="discount">
+                                    <span>@(item.Discount)%</span>
+                                </div>
+                            }
+                            <a href="#">
+                                <img class="product_img" src="@item.ImageUrl" alt="sofa">
+                                <div class="short_desc">
+                                    <p>@item.Name</p>
+                                   @if (item.IsDiscount)
+                                    {
+                                        <h5><s style="color: #aaa;">@(item.Price)&nbsp;руб</s></h5>
+                                    }
+                                    <h5>@(item.DiscountPrice)&nbsp;руб</h5>
+                                </div>
+                            </a>
+                        </li>
+                    }
+                </ul>
+                <div page-model="Model.PagingInfo" page-action="Index" page-classes-enabled="true" page-class="page"
+                    page-class-secondary="page_secondary" page-class-selected="page_active" page-url-route-category="Model.CurrentCategory">
+
+                </div>
+            </section>
+        </div>
+    </div>
+</main>

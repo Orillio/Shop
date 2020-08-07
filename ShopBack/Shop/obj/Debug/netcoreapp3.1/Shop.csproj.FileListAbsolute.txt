@@ -173,17 +173,13 @@ D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win-x86\nativ
 D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.csprojAssemblyReference.cache
 D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.AssemblyInfoInputs.cache
 D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.AssemblyInfo.cs
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.csproj.CoreCompileInputs.cache
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.MvcApplicationPartsAssemblyInfo.cache
 D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.RazorAssemblyInfo.cache
 D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.RazorAssemblyInfo.cs
 D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.TagHelpers.input.cache
 D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.TagHelpers.output.cache
 D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.RazorCoreGenerate.cache
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
 D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
@@ -196,3 +192,8 @@ D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\staticwebassets\Shop.S
 D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.dll
 D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.pdb
 D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.genruntimeconfig.cache
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.csproj.CoreCompileInputs.cache
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.MvcApplicationPartsAssemblyInfo.cache
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.csprojAssemblyReference.cache

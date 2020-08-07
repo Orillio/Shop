@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Shop.Models
+namespace Shop.Infrastructure
 {
-    public class Sofa : Product
+    public class PageExtensions
     {
     }
 }

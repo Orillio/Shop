@@ -157,6 +157,10 @@ nav .cats__wrapper ul li:hover::after {
   width: 100%;
 }
 
+.category_active:after {
+  width: 100% !important;
+}
+
 footer {
   letter-spacing: .3px;
   color: #fff;
@@ -211,6 +215,7 @@ main.all_collections section {
   padding-left: 20px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 33px;
 }
 @media (max-width: 650px) {
   main.all_collections section {
@@ -283,13 +288,14 @@ main.all_collections .categories .cat_img {
 }
 main.all_collections .products {
   display: flex;
-  justify-content: space-between;
   flex-flow: row wrap;
+  margin-bottom: 20px;
 }
 main.all_collections .products__item {
   position: relative;
   background-color: #fff;
   margin-top: 20px;
+  margin-right: 1.3%;
   padding: 20px;
   border: 1px solid #f2f2f2;
   width: 32%;
@@ -306,6 +312,19 @@ main.all_collections .products__item {
     width: 100%;
   }
 }
+main.all_collections .products__item .discount {
+  display: inline-block;
+  position: absolute;
+  width: 40px;
+  height: 24px;
+  background-color: #dd3f46;
+  text-align: center;
+  padding: 3px;
+  top: 10px;
+  font-size: 16px;
+  color: #fff;
+  right: 10px;
+}
 main.all_collections .products__item .short_desc {
   display: flex;
   flex-wrap: wrap;
@@ -314,6 +333,8 @@ main.all_collections .products__item .short_desc {
 }
 main.all_collections .products__item .short_desc p {
   color: #6fb52a;
+  width: 100%;
+  height: 40px;
 }
 main.all_collections .products__item .short_desc h5 {
   color: #000;
@@ -321,6 +342,35 @@ main.all_collections .products__item .short_desc h5 {
 }
 main.all_collections .products .product_img {
   width: 100%;
+}
+@media (max-width: 500px) {
+  main.all_collections .products .product_img {
+    width: 70%;
+    transform: translate(20%, 0);
+  }
+}
+main.all_collections .pagination {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+main.all_collections .pagination .page {
+  width: 40px;
+  text-align: center;
+  margin-right: 10px;
+}
+main.all_collections .pagination .page a {
+  display: block;
+  color: #6fb52a;
+  padding: 6px 4px;
+}
+main.all_collections .pagination .page_active, main.all_collections .pagination .page:hover {
+  border: 1px solid #6fb52a;
+}
+main.all_collections .pagination .page_secondary {
+  border: 1px solid #f2f2f2;
 }
 
 /*------------------MEDIA---------------*/

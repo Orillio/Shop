@@ -25,11 +25,22 @@
         <div class="container">
             <div class="cats__wrapper">
                 <ul>
-                    <li><a href="#">Диваны</a></li>
-                    <li><a href="#">Кресла</a></li>
-                    <li><a href="#">стулья</a></li>
-                    <li><a href="#">столы</a></li>
-                </ul>
+                    <li class="@(Model.CurrentCategory == "Sofas" ? "category_active" : "")">
+                        <a asp-action="Index" asp-controller="Product" asp-route-category="Sofas">Диваны</a>
+                    </li>
+
+                    <li class="@(Model.CurrentCategory == "ArmChairs" ? "category_active" : "")">
+                        <a asp-action="Index" asp-controller="Product" asp-route-category="ArmChairs">Кресла</a>
+                    </li>
+
+                    <li class="@(Model.CurrentCategory == "Chairs" ? "category_active" : "")">
+                        <a asp-action="Index" asp-controller="Product" asp-route-category="Chairs">стулья</a>
+                    </li>
+
+                    <li class="@(Model.CurrentCategory == "Tables" ? "category_active" : "")">
+                        <a asp-action="Index" asp-controller="Product" asp-route-category="Tables">столы</a>
+                    </li>
+                </ul>   
             </div>
         </div>
     </nav>
