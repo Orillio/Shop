@@ -35,7 +35,10 @@ namespace Shop.Controllers
                 },
                 CurrentCategory = category
             });
-            
+        }
+        public IActionResult ProductPage(int productId)
+        {
+            return View(Repository.Products.FirstOrDefault(x => x.Id == productId));
         }
     }
 }

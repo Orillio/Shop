@@ -22,13 +22,13 @@
                     <li class="categories__wrapper">
                         <div class="categories__item">
                             <a asp-action="Index" asp-controller="Product" asp-route-category="Sofas">
-                                <img class="cat_img" src="img/catImg/sofas.jpg" alt="">
+                                <img class="cat_img" src="../img/catImg/sofas.jpg" alt="">
                                 <span>Диваны</span>
                             </a>
                         </div>
                         <div class="categories__item">
                             <a asp-action="Index" asp-controller="Product" asp-route-category="ArmChairs">
-                                <img class="cat_img" src="img/catImg/armchairs.jpg" alt="">
+                                <img class="cat_img" src="../img/catImg/armchairs.jpg" alt="">
                                 <span>Кресла</span>
                             </a>
                         </div>
@@ -36,13 +36,13 @@
                     <li class="categories__wrapper">
                         <div class="categories__item">
                             <a asp-action="Index" asp-controller="Product" asp-route-category="Chairs">
-                                <img class="cat_img" src="img/catImg/chairs.jpg" alt="">
+                                <img class="cat_img" src="../img/catImg/chairs.jpg" alt="">
                                 <span>Стулья</span>
                             </a>
                         </div>
                         <div class="categories__item">
                             <a asp-action="Index" asp-controller="Product" asp-route-category="Tables">
-                                <img class="cat_img" src="img/catImg/tables.jpg" alt="">
+                                <img class="cat_img" src="../img/catImg/tables.jpg" alt="">
                                 <span>Столы</span>
                             </a>
                         </div>
@@ -59,8 +59,8 @@
                                     <span>@(item.Discount)%</span>
                                 </div>
                             }
-                            <a href="#">
-                                <img class="product_img" src="@item.ImageUrl" alt="sofa">
+                            <a asp-action="ProductPage" asp-controller="Product"> @*asp-route-productId="@(item.Id)*@
+                                <img class="product_img" src="../@(item.ImageUrl)" alt="sofa">
                                 <div class="short_desc">
                                     <p>@item.Name</p>
                                    @if (item.IsDiscount)

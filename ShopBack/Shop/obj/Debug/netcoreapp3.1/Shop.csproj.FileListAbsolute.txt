@@ -194,6 +194,8 @@ D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.pdb
 D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.genruntimeconfig.cache
 D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
 D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.csprojAssemblyReference.cache
 D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.csproj.CoreCompileInputs.cache
 D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.MvcApplicationPartsAssemblyInfo.cache
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.csprojAssemblyReference.cache
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Cart\CartList.cshtml.g.cs

@@ -14,7 +14,7 @@ namespace Shop.Infrastructure
     [HtmlTargetElement("div", Attributes = "page-model")]
     public class PageTagHelper : TagHelper
     {
-        private IUrlHelperFactory helper { get; set; }
+        public IUrlHelperFactory helper { get; set; }
         public PageTagHelper(IUrlHelperFactory factory)
         {
             helper = factory;
@@ -39,48 +39,13 @@ namespace Shop.Infrastructure
             {
                 ul.AddCssClass("pagination");
             }
-            {
-                TagBuilder li = new TagBuilder("li");
-                UrlValues["page"] = PageModel.CurrentPage - 1 <= 0 ? PageModel.CurrentPage : PageModel.CurrentPage - 1;
-                TagBuilder a = new TagBuilder("a");
-                a.Attributes["href"] = urlHelper.Action("Index", UrlValues);
-                a.InnerHtml.Append("<");
-                li.InnerHtml.AppendHtml(a);
-                if (PageClassesEnabled) li.AddCssClass("page page_secondary");
-                ul.InnerHtml.AppendHtml(li);
-            }
-            for (int i = 1; i <= PageModel.TotalPages; i++)
-            {
-                TagBuilder li = new TagBuilder("li");
-                UrlValues["page"] = i;
-                TagBuilder a = new TagBuilder("a");
-                a.Attributes["href"] = urlHelper.Action("Index", UrlValues);
-                a.InnerHtml.Append($"{i}");
-                li.InnerHtml.AppendHtml(a);
-                if (PageClassesEnabled)
-                {
-                    li.AddCssClass("page");
-                    if (PageModel.CurrentPage == i)
-                    {
-                        li.AddCssClass("page_active");
-                    }
-                    else
-                    {
-                        li.AddCssClass("page_secondary");
-                    }
-                }
-                ul.InnerHtml.AppendHtml(li);
-            }
-            {
-                TagBuilder li = new TagBuilder("li");
-                UrlValues["page"] = PageModel.CurrentPage + 1 > PageModel.TotalPages ? PageModel.CurrentPage : PageModel.CurrentPage + 1;
-                TagBuilder a = new TagBuilder("a");
-                a.Attributes["href"] = urlHelper.Action("Index", UrlValues);
-                a.InnerHtml.Append(">");
-                li.InnerHtml.AppendHtml(a);
-                if (PageClassesEnabled) li.AddCssClass("page page_secondary");
-                ul.InnerHtml.AppendHtml(li);
-            }
+
+            ul.InnerHtml.AppendHtml(this.GetArrow(ArrowType.Previous));
+
+            for (int i = 1; i <= PageModel.TotalPages; i++) ul.InnerHtml.AppendHtml(this.GetPage(i));
+
+            ul.InnerHtml.AppendHtml(this.GetArrow(ArrowType.Next));
+
             output.Content.AppendHtml(ul);
         }
         
