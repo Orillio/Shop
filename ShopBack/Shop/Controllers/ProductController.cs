@@ -13,17 +13,20 @@ namespace Shop.Controllers
 {
     public class ProductController : Controller
     {
-        IProductRepository Repository { get; set; }
+        IProductRepository repository { get; set; }
+        Cart cart { get; set; }
         private int pageSize = 6;
-        public ProductController(IProductRepository repository)
+        public ProductController(IProductRepository repository, Cart cart)
         {
-            Repository = repository;
+            this.cart = cart;
+            this.repository = repository;
+            ViewData["Cart"] = cart.ItemList;
         }
         public IActionResult Index(string category, int page = 1)
         {
             return View(new ProductsViewModel
             {
-                Products = Repository.Products
+                Products = repository.Products
                             .Where(x => category == null || x.Category == category)
                             .Skip((page - 1) * pageSize)
                             .Take(pageSize),
@@ -31,14 +34,21 @@ namespace Shop.Controllers
                 {
                     CurrentPage = page,
                     ItemsPerPage = 6,
-                    TotalItems = Repository.Products.Where(x => category == null || x.Category == category).Count()
+                    TotalItems = repository.Products.Where(x => category == null || x.Category == category).Count()
                 },
                 CurrentCategory = category
             });
         }
+        [HttpGet]
         public IActionResult ProductPage(int productId)
         {
-            return View(Repository.Products.FirstOrDefault(x => x.Id == productId));
+            return View(repository.Products.FirstOrDefault(x => x.Id == productId));
+        }
+        [HttpPost]
+        public IActionResult ProductPage(int productId, int productQuantity)
+        {
+            cart.AddItem(repository.Products.FirstOrDefault(x => x.Id == productId), productQuantity);
+            return RedirectToAction("ProductPage", new { productId = productId});
         }
     }
 }

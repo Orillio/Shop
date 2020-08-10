@@ -13,6 +13,7 @@ namespace Shop.Models
         public static void EnsureCreated(IApplicationBuilder app)
         {
             ProductContext context = app.ApplicationServices.GetRequiredService<ProductContext>();
+
             context.Database.Migrate();
             //context.Products.Load();
             //context.Products.Local.Clear();

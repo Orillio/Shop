@@ -9,8 +9,8 @@ using Shop.Models;
 namespace Shop.Migrations
 {
     [DbContext(typeof(ProductContext))]
-    [Migration("20200807150556_Initial")]
-    partial class Initial
+    [Migration("20200809211428_init")]
+    partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -36,11 +36,17 @@ namespace Shop.Migrations
                     b.Property<string>("ImageUrl")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("LongDescription")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<long>("Price")
                         .HasColumnType("bigint");
+
+                    b.Property<string>("ShortDescription")
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 

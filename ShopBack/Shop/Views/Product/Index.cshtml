@@ -52,25 +52,7 @@
                 <ul class="products">
                    @foreach (var item in Model.Products)
                     {
-                        <li class="products__item">
-                           @if (item.IsDiscount)
-                            {
-                                <div class="discount">
-                                    <span>@(item.Discount)%</span>
-                                </div>
-                            }
-                            <a asp-action="ProductPage" asp-controller="Product"> @*asp-route-productId="@(item.Id)*@
-                                <img class="product_img" src="../@(item.ImageUrl)" alt="sofa">
-                                <div class="short_desc">
-                                    <p>@item.Name</p>
-                                   @if (item.IsDiscount)
-                                    {
-                                        <h5><s style="color: #aaa;">@(item.Price)&nbsp;руб</s></h5>
-                                    }
-                                    <h5>@(item.DiscountPrice)&nbsp;руб</h5>
-                                </div>
-                            </a>
-                        </li>
+                        @Html.PartialAsync("ProductItem", item).Result
                     }
                 </ul>
                 <div page-model="Model.PagingInfo" page-action="Index" page-classes-enabled="true" page-class="page"

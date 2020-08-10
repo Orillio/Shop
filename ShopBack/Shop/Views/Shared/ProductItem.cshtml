@@ -1,0 +1,22 @@
+﻿@model Product
+
+<li class="products__item">
+    @if (Model.IsDiscount)
+    {
+        <div class="discount">
+            <span>@(Model.Discount)%</span>
+        </div>
+    }
+    <a asp-action="ProductPage" asp-controller="Product" asp-route-productId="@(Model.Id)">
+        
+        <img class="product_img" src="../@(Model.ImageUrl)" alt="sofa">
+        <div class="short_desc">
+            <p>@Model.Name</p>
+            @if (Model.IsDiscount)
+            {
+                <h5><s style="color: #aaa;">@(Model.Price)&nbsp;руб</s></h5>
+            }
+            <h5>@(Model.DiscountPrice)&nbsp;руб</h5>
+        </div>
+    </a>
+</li>

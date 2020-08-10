@@ -33,7 +33,10 @@ namespace Shop
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddScoped(services => Cart.CartCreate(services));
             services.AddMemoryCache();
-            services.AddSession();
+            services.AddSession(options =>
+            {
+                options.IdleTimeout = TimeSpan.FromDays(1);
+            });
         }
 
         public void Configure(IApplicationBuilder app)

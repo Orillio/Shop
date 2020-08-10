@@ -25,5 +25,9 @@ namespace Shop.Controllers
             }
             return RedirectToAction("Index", "Product", RouteData.Values);
         }
+        public IActionResult CartList()
+        {
+            return View(Cart);
+        }
     }
 }

@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="~/css/layout.css">
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="~/js/counter.js"></script>
     <script src="~/js/script.js"></script>
     <title>@ViewData["Title"] Shop</title>
 </head>
@@ -18,26 +19,26 @@
                 <a href="mailto:lorem@example.com" class="header_contacts__item">lorem@example.com</a>
             </div>
             <a href="/"><div class="logo">Магазинчик</div></a>
-            <a href="#" class="cart"><i></i></a>
+            @await Component.InvokeAsync("Cart")
         </div>
     </header>
     <nav>
         <div class="container">
             <div class="cats__wrapper">
                 <ul>
-                    <li class="@(Model.CurrentCategory == "Sofas" ? "category_active" : "")">
+                    <li class="@if (Model is ProductsViewModel) { @(Model?.CurrentCategory == "Sofas" ? "category_active" : ""); } ">
                         <a asp-action="Index" asp-controller="Product" asp-route-category="Sofas">Диваны</a>
                     </li>
 
-                    <li class="@(Model.CurrentCategory == "ArmChairs" ? "category_active" : "")">
+                    <li class="@if (Model is ProductsViewModel) { @(Model?.CurrentCategory == "ArmChairs" ? "category_active" : ""); }">
                         <a asp-action="Index" asp-controller="Product" asp-route-category="ArmChairs">Кресла</a>
                     </li>
 
-                    <li class="@(Model.CurrentCategory == "Chairs" ? "category_active" : "")">
+                    <li class="@if (Model is ProductsViewModel) { @(Model?.CurrentCategory == "Chairs" ? "category_active" : ""); }">
                         <a asp-action="Index" asp-controller="Product" asp-route-category="Chairs">стулья</a>
                     </li>
 
-                    <li class="@(Model.CurrentCategory == "Tables" ? "category_active" : "")">
+                    <li class="@if (Model is ProductsViewModel) { @(Model?.CurrentCategory == "Tables" ? "category_active" : ""); }">
                         <a asp-action="Index" asp-controller="Product" asp-route-category="Tables">столы</a>
                     </li>
                 </ul>   

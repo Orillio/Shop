@@ -22,7 +22,10 @@
                 <a href="mailto:lorem@example.com" class="header_contacts__item">lorem@example.com</a>
             </div>
             <a href="/"><div class="logo">Магазинчик</div></a>
-            <a href="#" class="cart"><i></i></a>
+            <a href="#" class="cart">
+                <span class="cart_count">4</span>
+                <i class="cart_img"></i>
+            </a>
         </div>
     </header>
     <nav>
@@ -37,10 +40,44 @@
             </div>
         </div>
     </nav>
-    <main class="product_page">
+    <main class="cart_page">
+        <div class="container">
+            <h1>Корзина</h1>
+            <div class="product__item">
+                <img src="img/sofaImg/Диван Copenhagen.jpg" alt="">
+                <div class="product_wrapper">
+                    <a href="#">Диван "Copenhagen" (темно-красный)</a>
+                    <div class="price_wrapper">
+                        <span class="price">139000 руб</span>
+                        <span class="old_price">150000 руб
+                        </span>
+                    </div>
+                </div>
+                <div class="product_wrapper">
+                    <div class="counter counter_cart">
+                        <button class="counter__button button_minus action_button" type="button">
+                            <img src="/img/svg-icons/remove-outline.svg">
+                        </button>
+                        <input type="text"  value="1" class="counter_input" maxlength='2' onkeydown="return specialText(this, event)" onblur="if (this.value == '0') { this.value = 1; }">
+                        <input type="hidden"/>
+                        <button class="counter__button button_plus action_button" type="button">
+                            <img src="/img/svg-icons/add-outline.svg">
+                        </button>
+                    </div>
+                    <span class="product_total">1212300 руб</span>
+                </div>
+                <div class="product_delete action_button"><img src="img/svg-icons/remove-product.svg" alt="cross"></div>
+            </div>
+            <div class="cart_summary">
+                <h2>Итого</h2>
+                <span class="sum_price">179000.00 руб</span>
+                <div class="sum_submit">оформить заказ</div>
+            </div>
+        </div>
     </main>
-    <!-- <footer>
+    <footer>
         <span>Все права почти защищены</span>
-    </footer> -->
+    </footer>
+    <script src="js/counter.js"></script>
 </body>
 </html>

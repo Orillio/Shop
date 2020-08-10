@@ -2,7 +2,7 @@
 
 namespace Shop.Migrations
 {
-    public partial class Initial : Migration
+    public partial class init : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -14,6 +14,8 @@ namespace Shop.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(nullable: true),
                     Price = table.Column<long>(nullable: false),
+                    ShortDescription = table.Column<string>(nullable: true),
+                    LongDescription = table.Column<string>(nullable: true),
                     Discount = table.Column<int>(nullable: false),
                     Category = table.Column<string>(nullable: true),
                     ImageUrl = table.Column<string>(nullable: true)
