@@ -12,7 +12,12 @@
     <title>@ViewData["Title"] Shop</title>
 </head>
 <body>
+    <ul class="notifications_list">
+    </ul>
     <header>
+        <div class="top_toolbar">
+
+        </div>
         <div class="container">
             <div class="header_contacts">
                 <a href="tel:78000000000" class="header_contacts__item">+7(800)000-00-00</a>
@@ -41,7 +46,7 @@
                     <li class="@if (Model is ProductsViewModel) { @(Model?.CurrentCategory == "Tables" ? "category_active" : ""); }">
                         <a asp-action="Index" asp-controller="Product" asp-route-category="Tables">столы</a>
                     </li>
-                </ul>   
+                </ul>
             </div>
         </div>
     </nav>

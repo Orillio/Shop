@@ -25,7 +25,8 @@
                         <button class="counter__button button_minus action_button" type="button">
                             <img src="/img/svg-icons/remove-outline.svg">
                         </button>
-                        <input type="text" value="@item.Quantity" class="counter_input" maxlength='2' onkeydown="return specialText(this, event)" onblur="if (this.value == '0') { this.value = 1; }">
+                        <input type="text" value="@item.Quantity" class="counter_input" maxlength='2'
+                               onkeydown="return specialText(this, event)" onblur="onblurCounter(this)">
                         <input type="hidden" />
                         <button class="counter__button button_plus action_button" type="button">
                             <img src="/img/svg-icons/add-outline.svg">

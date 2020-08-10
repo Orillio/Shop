@@ -16,19 +16,19 @@
                     {
                         <span>@Model.Price&nbsp;руб</span>
                     }
-                    <form method="post" asp-action="ProductPage" asp-controller="Product">
+                    <form>
                         <div class="counter">
                             <button class="counter__button button_minus" type="button">
                                 <img src="~/img/svg-icons/remove-outline.svg">
                             </button>
                             <input type="text" name="productQuantity" value="1" class="counter_input" 
-                                   onkeydown="return specialText(this, event)" maxlength="2" onblur="if (this.value == '0') { this.value = 1; }">
+                                   onkeydown="return specialText(this, event)" maxlength="2" onblur="onblurCounter(this)">
                             <input type="hidden" asp-for="@Model.Id"/>
                             <button class="counter__button button_plus" type="button">
                                 <img src="~/img/svg-icons/add-outline.svg">
                             </button>
                         </div>
-                        <button class="counter_submit">
+                        <button type="button" class="counter_submit">
                             <span class="cart_img"></span>
                             <span>КУПИТЬ</span>
                         </button>
