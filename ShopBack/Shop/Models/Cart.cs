@@ -33,9 +33,17 @@ namespace Shop.Models
             }
             session.SetCart(this);
         }
-        public void RemoveItem(CartItem cartItem)
+        public void RemoveItem(int productId)
         {
-            ItemList.Remove(cartItem);
+            ItemList.Remove(ItemList.FirstOrDefault(x => x.Product.Id == productId));
+            session.SetCart(this);
+        }
+        public void SetItemQuantity(Product product, int quantity)
+        {
+            var cartItem = ItemList.FirstOrDefault(x => x.Product.Id == product.Id);
+            if (cartItem == null) return;
+
+            cartItem.Quantity = quantity;
             session.SetCart(this);
         }
         public decimal CalculateTotal() =>

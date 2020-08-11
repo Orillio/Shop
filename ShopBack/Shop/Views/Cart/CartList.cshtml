@@ -2,21 +2,21 @@
 <main class="cart_page">
     <div class="container">
         <h1>Корзина</h1>
-       @foreach (var item in Model.ItemList)
+        @foreach (var item in Model.ItemList)
         {
-            <div class="product__item">
+            <div class="product__item" id="@item.Product.Id">
                 <img src="~/@item.Product.ImageUrl" alt="">
                 <div class="product_wrapper">
                     <a asp-action="ProductPage" asp-controller="Product" asp-route-productId="@item.Product.Id">@item.Product.Name</a>
                     <div class="price_wrapper">
                         @if (item.Product.IsDiscount)
                         {
-                            <span class="price">@item.Product.DiscountPrice&nbsp;руб</span>
-                            <span class="old_price">@item.Product.Price&nbsp;руб</span>
+                            <span class="price">@item.Product.DiscountPrice руб</span>
+                            <span class="old_price">@item.Product.Price руб</span>
                         }
                         else
                         {
-                    <span class="price">@item.Product.Price&nbsp;руб</span>
+                            <span class="price">@item.Product.Price руб</span>
                         }
                     </div>
                 </div>
@@ -34,7 +34,7 @@
                     </div>
                     <span class="product_total"></span>
                 </div>
-                <div class="product_delete action_button"><img src="~/img/svg-icons/remove-product.svg" alt="cross"></div>
+                <div class="product_delete"><img src="~/img/svg-icons/remove-product.svg" alt="cross"></div>
             </div>
         }
         <div class="cart_summary">
@@ -44,3 +44,4 @@
         </div>
     </div>
 </main>
+<script src="~/js/cart.js"></script>

@@ -23,3 +23,7 @@ function specialText(element, event)
             return false;
     }
 }
+function onblurCounter(e) {
+    if (e.value == '0' || e.value == '') { e.value = 1; }
+    else if (e.value[0] == '0') { e.value = e.value[1] }
+}

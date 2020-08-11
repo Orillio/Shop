@@ -510,6 +510,48 @@ main {
   font-family: 'Cuprum';
   font-size: 16px;
 }
+.product_page .tabs {
+  margin-top: 30px;
+  padding-bottom: 20px;
+  display: block;
+  border-bottom: 1px solid #f2f2f2;
+}
+.product_page .tabs__item {
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 20px;
+  transition: all .2s ease;
+}
+.product_page .tab_active {
+  color: #6fb52a;
+  text-decoration: underline;
+  transition: all .2s ease;
+}
+.product_page .tab-block {
+  margin: 40px 0;
+  display: none;
+}
+.product_page .tab_block_active {
+  display: block;
+}
+.product_page .tab-desc {
+  width: 80%;
+}
+.product_page .product_description {
+  margin-top: 25px;
+  line-height: 25px;
+}
+.product_page .chars_table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.product_page .chars_table td {
+  padding: 10px 20px;
+  border: 1px solid #f2f2f2;
+}
+.product_page .chars_table tbody tr:nth-child(2n) {
+  background: rgba(0, 0, 0, 0.03);
+}
 
 .cart_page h1 {
   font-size: 26px;
@@ -565,6 +607,7 @@ main {
   display: flex;
   flex-direction: column;
   margin-right: 7%;
+  justify-content: center;
 }
 .cart_page .product__item .price_wrapper span {
   margin-bottom: 5px;

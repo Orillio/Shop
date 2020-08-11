@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/layout.css">
     <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/counter.js"></script>
     <script src="js/script.js"></script>
     <title>Shop</title>
 </head>
@@ -54,44 +55,87 @@
             </div>
         </div>
     </nav>
-    <main class="cart_page">
-        <div class="container">
-            <h1>Корзина</h1>
-            <div class="product__item">
-                <img src="img/sofaImg/Диван Copenhagen.jpg" alt="">
-                <div class="product_wrapper">
-                    <a href="#">Диван "Copenhagen" (темно-красный)</a>
-                    <div class="price_wrapper">
-                        <span class="price">139000 руб</span>
-                        <span class="old_price">150000 руб
-                        </span>
+    <main class="product_page">
+        <section class="product">
+            <div class="container">
+                <div class="product_top">
+                    <img class="product_img" src="/img/sofaImg/Диван Bouton от Eichholtz.jpg" alt="">
+                    <div class="product-buy-info">
+                        <h1>Имя</h1>
+                        <p>Классический мягкий диван в бежевом цвете с бархатной обивкой.</p>
+                        <span>230000 руб</span>
+                        <s>300000 руб</s>
+                        <form>
+                            <div class="counter">
+                                <button class="counter__button button_minus" type="button">
+                                    <img src="/img/svg-icons/remove-outline.svg">
+                                </button>
+                                <input type="text" name="productQuantity" value="1" class="counter_input" 
+                                       onkeydown="return specialText(this, event)" maxlength="2" onblur="onblurCounter(this)">
+                                <input type="hidden" asp-for="@Model.Id"/>
+                                <button class="counter__button button_plus" type="button">
+                                    <img src="/img/svg-icons/add-outline.svg">
+                                </button>
+                            </div>
+                            <button type="button" class="counter_submit">
+                                <span class="cart_img"></span>
+                                <span>КУПИТЬ</span>
+                            </button>
+                        </form>
                     </div>
                 </div>
-                <div class="product_wrapper">
-                    <div class="counter counter_cart">
-                        <button class="counter__button button_minus action_button" type="button">
-                            <img src="/img/svg-icons/remove-outline.svg">
-                        </button>
-                        <input type="text"  value="1" class="counter_input" maxlength='2' onkeydown="return specialText(this, event)" onblur="if (this.value == '0') { this.value = 1; }">
-                        <input type="hidden"/>
-                        <button class="counter__button button_plus action_button" type="button">
-                            <img src="/img/svg-icons/add-outline.svg">
-                        </button>
+    
+            </div>
+        </section>
+        <section class="product_options">
+            <div class="container">
+                <ul class="tabs">
+                    <li data-tab="tab-desc" class="tabs__item tab_active">
+                        Описание
+                    </li>
+                    <li data-tab="tab-chars" class="tabs__item">
+                        Характеристики
+                    </li>
+                </ul>
+                <div class="tabs__list">
+                    <div class="tab-block tab-desc tab_block_active">
+                        <p class="product_description">
+                            Расслабьтесь на стильном диване "Marlborough " от Eichholtz. Современный, но одновременно традиционный диван в тиле декаданс с современной эстетикой.
+                            В комплекте плиссированный чехол и удобные мягкие подушки.
+                        </p>
                     </div>
-                    <span class="product_total">1212300 руб</span>
+                    <div class="tab-block tab-chars">
+                        <table class="chars_table">
+                            <tbody>
+                                <tr>
+                                    <td>Высота (см)</td>
+                                    <td>89</td>
+                                </tr>
+                                <tr>
+                                    <td>Глубина (см)</td>
+                                    <td>108</td>
+                                </tr>
+                                <tr>
+                                    <td>Ширина (см)</td>
+                                    <td>222</td>
+                                </tr>
+                                <tr>
+                                    <td>Материал обивки</td>
+                                    <td>льняная ткань</td>
+                                </tr>
+                                <tr>
+                                    <td>Метка</td>
+                                    <td>Распродажа</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
-                <div class="product_delete action_button"><img src="img/svg-icons/remove-product.svg" alt="cross"></div>
             </div>
-            <div class="cart_summary">
-                <h2>Итого</h2>
-                <span class="sum_price">179000.00 руб</span>
-                <div class="sum_submit">оформить заказ</div>
-            </div>
-        </div>
+        </section>
     </main>
     <footer>
         <span>Все права почти защищены</span>
     </footer>
-    <script src="js/counter.js"></script>
 </body>
 </html>
