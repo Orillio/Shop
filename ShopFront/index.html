@@ -55,84 +55,70 @@
             </div>
         </div>
     </nav>
-    <main class="product_page">
-        <section class="product">
-            <div class="container">
-                <div class="product_top">
-                    <img class="product_img" src="/img/sofaImg/Диван Bouton от Eichholtz.jpg" alt="">
-                    <div class="product-buy-info">
-                        <h1>Имя</h1>
-                        <p>Классический мягкий диван в бежевом цвете с бархатной обивкой.</p>
-                        <span>230000 руб</span>
-                        <s>300000 руб</s>
-                        <form>
-                            <div class="counter">
-                                <button class="counter__button button_minus" type="button">
-                                    <img src="/img/svg-icons/remove-outline.svg">
-                                </button>
-                                <input type="text" name="productQuantity" value="1" class="counter_input" 
-                                       onkeydown="return specialText(this, event)" maxlength="2" onblur="onblurCounter(this)">
-                                <input type="hidden" asp-for="@Model.Id"/>
-                                <button class="counter__button button_plus" type="button">
-                                    <img src="/img/svg-icons/add-outline.svg">
-                                </button>
+    <main class="all_collections">
+        <div class="container">
+            <div class="wrapper">
+                <aside>
+                    <button class="filter_button ">
+                        <span>Фильтры</span>
+                        <span></span>
+                    </button>
+                    
+                </aside>
+                <section>
+                    <div class="cat_top">
+                        <h1>Каталог</h1>
+                        <select>
+                            <option disabled value="">Сортировать</option>
+                            <option selected value="">по возрастанию цены</option>
+                            <option value="">по убыванию цены</option>
+                        </select>
+                    </div>
+
+                    <ul class="categories">
+                        <li class="categories__wrapper">
+                            <div class="categories__item">
+                                <a asp-action="Index" asp-controller="Product" asp-route-category="Sofas">
+                                    <img class="cat_img" src="../img/catImg/sofas.jpg" alt="">
+                                    <span>Диваны</span>
+                                </a>
                             </div>
-                            <button type="button" class="counter_submit">
-                                <span class="cart_img"></span>
-                                <span>КУПИТЬ</span>
-                            </button>
-                        </form>
+                            <div class="categories__item">
+                                <a asp-action="Index" asp-controller="Product" asp-route-category="ArmChairs">
+                                    <img class="cat_img" src="../img/catImg/armchairs.jpg" alt="">
+                                    <span>Кресла</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="categories__wrapper">
+                            <div class="categories__item">
+                                <a asp-action="Index" asp-controller="Product" asp-route-category="Chairs">
+                                    <img class="cat_img" src="../img/catImg/chairs.jpg" alt="">
+                                    <span>Стулья</span>
+                                </a>
+                            </div>
+                            <div class="categories__item">
+                                <a asp-action="Index" asp-controller="Product" asp-route-category="Tables">
+                                    <img class="cat_img" src="../img/catImg/tables.jpg" alt="">
+                                    <span>Столы</span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <ul class="products">
+                    <!-- @foreach (var item in Model.Products)
+                        {
+                            @Html.PartialAsync("ProductItem", item).Result
+                        } -->
+                    </ul>
+                    <div page-model="Model.PagingInfo" page-action="Index" page-classes-enabled="true" page-class="page"
+                        page-class-secondary="page_secondary" page-class-selected="page_active" page-url-route-category="Model.CurrentCategory">
+
                     </div>
-                </div>
-    
+                </section>
             </div>
-        </section>
-        <section class="product_options">
-            <div class="container">
-                <ul class="tabs">
-                    <li data-tab="tab-desc" class="tabs__item tab_active">
-                        Описание
-                    </li>
-                    <li data-tab="tab-chars" class="tabs__item">
-                        Характеристики
-                    </li>
-                </ul>
-                <div class="tabs__list">
-                    <div class="tab-block tab-desc tab_block_active">
-                        <p class="product_description">
-                            Расслабьтесь на стильном диване "Marlborough " от Eichholtz. Современный, но одновременно традиционный диван в тиле декаданс с современной эстетикой.
-                            В комплекте плиссированный чехол и удобные мягкие подушки.
-                        </p>
-                    </div>
-                    <div class="tab-block tab-chars">
-                        <table class="chars_table">
-                            <tbody>
-                                <tr>
-                                    <td>Высота (см)</td>
-                                    <td>89</td>
-                                </tr>
-                                <tr>
-                                    <td>Глубина (см)</td>
-                                    <td>108</td>
-                                </tr>
-                                <tr>
-                                    <td>Ширина (см)</td>
-                                    <td>222</td>
-                                </tr>
-                                <tr>
-                                    <td>Материал обивки</td>
-                                    <td>льняная ткань</td>
-                                </tr>
-                                <tr>
-                                    <td>Метка</td>
-                                    <td>Распродажа</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </section>
+        </div>
     </main>
     <footer>
         <span>Все права почти защищены</span>
