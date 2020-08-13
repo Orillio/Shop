@@ -210,9 +210,9 @@ main.all_collections{
     aside{
         float: left;
         max-width: 25%;
-        height: 100px;
         width: 100%;
         @media (max-width: 650px){
+            max-width: none;
             float: none;
         }
         .filter_button{
@@ -228,7 +228,7 @@ main.all_collections{
                 font-family: 'Cuprum';
                 font-size: 16px;
             }
-            span:nth-child(2){
+            .filter_button_arrow{
                 background: url(../img/svg-icons/down-arrow.svg) no-repeat;
                 margin-left: 5px;
                 margin-top: 3px;
@@ -240,11 +240,48 @@ main.all_collections{
             }
         }
         .filter_active{
-            span:nth-child(2){
-                transform: rotate(180deg);
+            transform: rotate(180deg);
+        }
+        .filter_wrapper{
+            display: flex;
+            flex-direction: column;
+            margin-top: 40px;
+        }
+        .price_filter{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: baseline;
+            margin-bottom: 40px;
+        }
+        .price_filter_flex_wrapper{
+            width: 100%;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            span{
+                max-width: 18px;
+                width: 100%;
+                font-size: 18px;
+                display: inline-block;
+                margin-right: 10px;
             }
         }
-        
+        .price_filter_input{
+            padding-left: 5px;
+            max-width: 40%;
+            height: 30px;
+            border: 1px solid $border;
+        }
+        .price_filter_button{
+            background: #6fb52a;
+            color: #ffffff;
+            font-family: "Cuprum";
+            padding: 10px 12px;
+            font-size: 16px;
+            &:hover{
+                background-color: #000;
+            }
+        }
     }
     section{
         padding-left: 20px;

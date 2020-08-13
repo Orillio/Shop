@@ -59,11 +59,23 @@
         <div class="container">
             <div class="wrapper">
                 <aside>
-                    <button class="filter_button ">
+                    <button class="filter_button">
                         <span>Фильтры</span>
-                        <span></span>
+                        <span class="filter_button_arrow"></span>
                     </button>
-                    
+                    <ul class="filter_wrapper">
+                        <li class="price_filter">
+                            <div class="price_filter_flex_wrapper">
+                                <span>От</span>
+                                <input placeholder="Руб" type="text" class="price_filter_input">
+                            </div>
+                            <div class="price_filter_flex_wrapper">
+                                <span>До</span>
+                                <input placeholder="Руб" type="text" class="price_filter_input">
+                            </div>
+                            <button class="price_filter_button">Применить</button>
+                        </li>
+                    </ul>
                 </aside>
                 <section>
                     <div class="cat_top">

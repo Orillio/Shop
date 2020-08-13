@@ -12,7 +12,6 @@ namespace Shop.Models
         public uint Price { get; set; }
         public string ShortDescription { get; set; }
         public string LongDescription { get; set; }
-        public List<ProductTag> Tags { get; set; }
         public uint DiscountPrice
         {
             get

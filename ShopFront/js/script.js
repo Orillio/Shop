@@ -1,10 +1,18 @@
 $(document).ready(function () {
     $('.filter_button').click(e => {
-        if ($('.filter_button').hasClass('filter_active')) {
-            e.currentTarget.classList.remove('filter_active');
+        if ($('.filter_button_arrow').hasClass('filter_active')) {
+            e.currentTarget.children[1].classList.remove('filter_active');
         }
         else {
-            e.currentTarget.classList.add('filter_active');
+            e.currentTarget.children[1].classList.add('filter_active');
+        }
+    });
+    $('.filter__name').click(e => {
+        if ($(e.currentTarget.children[1]).hasClass('filter_active')) {
+            e.currentTarget.children[1].classList.remove('filter_active');
+        }
+        else {
+            e.currentTarget.children[1].classList.add('filter_active');
         }
     });
     $('.counter_submit').click(e => {

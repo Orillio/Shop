@@ -16,14 +16,12 @@ namespace Shop.Controllers
     public class ProductController : Controller
     {
         IProductRepository repository { get; set; }
-        IIncludableQueryable<Product, List<ProductTag>> IncludedProducts { get; set; }
         Cart cart { get; set; }
         private int pageSize = 6;
         public ProductController(IProductRepository repository, Cart cart)
         {
             this.cart = cart;
             this.repository = repository;
-            IncludedProducts = repository.Products.Include(x => x.Tags);
             ViewData["Cart"] = cart.ItemList;
 
         }
@@ -31,7 +29,7 @@ namespace Shop.Controllers
         {
             return View(new ProductsViewModel
             {
-                Products = IncludedProducts
+                Products = repository.Products
                             .Where(x => category == null || x.Category == category)
                             .Skip((page - 1) * pageSize)
                             .Take(pageSize),
@@ -39,26 +37,26 @@ namespace Shop.Controllers
                 {
                     CurrentPage = page,
                     ItemsPerPage = 6,
-                    TotalItems = IncludedProducts.Where(x => category == null || x.Category == category).Count()
+                    TotalItems = repository.Products.Where(x => category == null || x.Category == category).Count()
                 },
-                CurrentCategory = category
+                CurrentCategory = category,
             });
         }
         [HttpGet]
         public IActionResult ProductPage(int productId)
         {
-            return View(IncludedProducts.FirstOrDefault(x => x.Id == productId));
+            return View(repository.Products.FirstOrDefault(x => x.Id == productId));
         }
         [HttpPost]
         public IActionResult AddItem(int productId, int productQuantity)
         {
-            cart.AddItem(IncludedProducts.FirstOrDefault(x => x.Id == productId), productQuantity);
+            cart.AddItem(repository.Products.FirstOrDefault(x => x.Id == productId), productQuantity);
             return Accepted();
         }
         [HttpPost]
         public IActionResult SetItemQuantity(int productId, int productQuantity)
         {
-            cart.SetItemQuantity(IncludedProducts.FirstOrDefault(x => x.Id == productId), productQuantity);
+            cart.SetItemQuantity(repository.Products.FirstOrDefault(x => x.Id == productId), productQuantity);
             return Accepted();
         }
         [HttpDelete]
