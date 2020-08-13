@@ -200,7 +200,6 @@ D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Cart\CartList.cshtml.g.cs
 D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ProductItem.cshtml.g.cs
 D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Product\ProductPage.cshtml.g.cs
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.csprojAssemblyReference.cache
 D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Cart\Default.cshtml.g.cs
 C:\Users\pc\Desktop\C#\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\pc\Desktop\C#\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\appsettings.json
@@ -274,3 +273,4 @@ C:\Users\pc\Desktop\C#\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\staticwebasset
 C:\Users\pc\Desktop\C#\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.dll
 C:\Users\pc\Desktop\C#\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.pdb
 C:\Users\pc\Desktop\C#\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.genruntimeconfig.cache
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.csprojAssemblyReference.cache

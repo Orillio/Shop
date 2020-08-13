@@ -25,22 +25,28 @@ namespace Shop.Controllers
             ViewData["Cart"] = cart.ItemList;
 
         }
-        public IActionResult Index(string category, int page = 1)
+        public IActionResult Index(string category, int page = 1, int from = 0, int to = 0)
         {
-            return View(new ProductsViewModel
+            ViewData["CurrentCategory"] = category;
+            var e = new ProductsViewModel
             {
                 Products = repository.Products
                             .Where(x => category == null || x.Category == category)
+                            .Where(x => (x.Price >= from && x.Price <= to) || (from == 0 && to == 0))
                             .Skip((page - 1) * pageSize)
                             .Take(pageSize),
                 PagingInfo = new PagingInfo()
                 {
                     CurrentPage = page,
                     ItemsPerPage = 6,
-                    TotalItems = repository.Products.Where(x => category == null || x.Category == category).Count()
+                    TotalItems = repository.Products
+                    .Where(x => category == null || x.Category == category)
+                    .Where(x => (x.Price >= from && x.Price <= to) || (from == 0 && to == 0))
+                    .Count()
                 },
-                CurrentCategory = category,
-            });
+                PriceInfo = new PriceInfo { From = from, To = to}
+            };
+            return View(e);
         }
         [HttpGet]
         public IActionResult ProductPage(int productId)
@@ -64,6 +70,11 @@ namespace Shop.Controllers
         {
             cart.RemoveItem(productId);
             return Accepted();
+        }
+        [HttpGet]
+        public IActionResult SearchByPrice(int from, int to)
+        {
+            return RedirectToAction("Index", new { from, to });
         }
     }
 }

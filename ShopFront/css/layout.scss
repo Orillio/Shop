@@ -28,6 +28,10 @@ button{
     width: 100%;
     margin: 0 auto;
 }
+.valid_error{
+    border: 1px solid #ff6d6d;
+    background-color: rgb(255, 197, 197);
+}
 body{
     font-family: 'Cuprum';
     letter-spacing: -.3px;
@@ -214,30 +218,6 @@ main.all_collections{
         @media (max-width: 650px){
             max-width: none;
             float: none;
-        }
-        .filter_button{
-            padding: 10px 12px;
-            border: 0;
-            background-color: $green_color;
-            display: flex;
-            &:hover{
-               background-color: #000;
-            }
-            span:nth-child(1){
-                color: #fff;
-                font-family: 'Cuprum';
-                font-size: 16px;
-            }
-            .filter_button_arrow{
-                background: url(../img/svg-icons/down-arrow.svg) no-repeat;
-                margin-left: 5px;
-                margin-top: 3px;
-                vertical-align: middle;
-                padding-left: 14px;
-                padding-top: 14px;
-                filter: invert(1);
-                transition: all .2s ease;
-            }
         }
         .filter_active{
             transform: rotate(180deg);

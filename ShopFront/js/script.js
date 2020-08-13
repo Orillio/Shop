@@ -1,20 +1,4 @@
 $(document).ready(function () {
-    $('.filter_button').click(e => {
-        if ($('.filter_button_arrow').hasClass('filter_active')) {
-            e.currentTarget.children[1].classList.remove('filter_active');
-        }
-        else {
-            e.currentTarget.children[1].classList.add('filter_active');
-        }
-    });
-    $('.filter__name').click(e => {
-        if ($(e.currentTarget.children[1]).hasClass('filter_active')) {
-            e.currentTarget.children[1].classList.remove('filter_active');
-        }
-        else {
-            e.currentTarget.children[1].classList.add('filter_active');
-        }
-    });
     $('.counter_submit').click(e => {
         var values = { productId: window.location.pathname.split('/')[3], productQuantity: $('.counter_input')[0].value }
         $.post({
@@ -24,7 +8,18 @@ $(document).ready(function () {
             success: addItemNotification,
         });
     });
-    
+    $('.price_filter_button').click(() =>{
+        var inputFrom = document.querySelector('.from');
+        var inputTo = document.querySelector('.to');
+        if (inputFrom.value == ''){
+            inputFrom.classList.add('valid_error');
+        }
+        if(inputTo.value == ''){
+            inputTo.classList.add('valid_error');
+        }
+        document.location.href = `/Product/Index/?from=${inputFrom.value}&to=${inputTo.value}`;
+        console.log(document.location.href);
+    });
     function addItemNotification() {
         var wrapper = document.createElement('li');
         wrapper.classList.add("notifications_list__item");

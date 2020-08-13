@@ -3,11 +3,24 @@
     <div class="container">
         <div class="wrapper">
             <aside>
-                <button class="filter_button ">
-                    <span>Фильтры</span>
-                    <span></span>
-                </button>
-
+                <h1>Фильтр по цене</h1>
+                <ul class="filter_wrapper">
+                    <li class="price_filter">
+                        <div class="price_filter_flex_wrapper">
+                            <span>От</span>
+                            <input placeholder="Руб" type="text" onfocus="this.classList.remove('valid_error')"
+                                   onkeydown="return specialText(this, event)" maxlength="8" 
+                                   value="@(Model.PriceInfo.From != 0 ? Model.PriceInfo.From.ToString() : "")" class="price_filter_input from">
+                        </div>
+                        <div class="price_filter_flex_wrapper">
+                            <span>До</span>
+                            <input placeholder="Руб" type="text" onfocus="this.classList.remove('valid_error')"
+                                   onkeydown="return specialText(this, event)" maxlength="8"
+                                   value="@(Model.PriceInfo.To != 0 ? Model.PriceInfo.To.ToString() : "")" class="price_filter_input to">
+                        </div>
+                        <button class="price_filter_button">Применить</button>
+                    </li>
+                </ul>
             </aside>
             <section>
                 <div class="cat_top">
@@ -57,7 +70,8 @@
                     }
                 </ul>
                 <div page-model="Model.PagingInfo" page-action="Index" page-classes-enabled="true" page-class="page"
-                    page-class-secondary="page_secondary" page-class-selected="page_active" page-url-route-category="Model.CurrentCategory">
+                    page-class-secondary="page_secondary" page-class-selected="page_active" page-url-route-category="@ViewData["CurrentCategory"]"
+                     page-url-route-from="@Model.PriceInfo.From" page-url-route-to="@Model.PriceInfo.To">
 
                 </div>
             </section>

@@ -59,19 +59,18 @@
         <div class="container">
             <div class="wrapper">
                 <aside>
-                    <button class="filter_button">
-                        <span>Фильтры</span>
-                        <span class="filter_button_arrow"></span>
-                    </button>
+                    <h1>Фильтр по цене</h1>
                     <ul class="filter_wrapper">
                         <li class="price_filter">
                             <div class="price_filter_flex_wrapper">
                                 <span>От</span>
-                                <input placeholder="Руб" type="text" class="price_filter_input">
+                                <input placeholder="Руб" type="text" onfocus="this.classList.remove('valid_error')"
+                                 onkeydown="return specialText(this, event)" maxlength="8" class="price_filter_input from">
                             </div>
                             <div class="price_filter_flex_wrapper">
                                 <span>До</span>
-                                <input placeholder="Руб" type="text" class="price_filter_input">
+                                <input placeholder="Руб" type="text" onfocus="this.classList.remove('valid_error')"
+                                 onkeydown="return specialText(this, event)" maxlength="8" class="price_filter_input to">
                             </div>
                             <button class="price_filter_button">Применить</button>
                         </li>

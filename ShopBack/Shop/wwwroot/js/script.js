@@ -1,12 +1,4 @@
 $(document).ready(function () {
-    $('.filter_button').click(e => {
-        if ($('.filter_button').hasClass('filter_active')) {
-            e.currentTarget.classList.remove('filter_active');
-        }
-        else {
-            e.currentTarget.classList.add('filter_active');
-        }
-    });
     $('.counter_submit').click(e => {
         var values = { productId: window.location.pathname.split('/')[3], productQuantity: $('.counter_input')[0].value }
         $.post({
@@ -16,7 +8,18 @@ $(document).ready(function () {
             success: addItemNotification,
         });
     });
-
+    $('.price_filter_button').click(() => {
+        var inputFrom = document.querySelector('.from');
+        var inputTo = document.querySelector('.to');
+        if (inputFrom.value == '') {
+            inputFrom.classList.add('valid_error');
+        }
+        if (inputTo.value == '') {
+            inputTo.classList.add('valid_error');
+        }
+        if (inputTo.value != '' || inputFrom.value != '')
+            document.location.href = `/Product/SearchByPrice/?from=${inputFrom.value}&to=${inputTo.value}`;
+    });
     function addItemNotification() {
         var wrapper = document.createElement('li');
         wrapper.classList.add("notifications_list__item");
