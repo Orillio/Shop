@@ -1,0 +1,58 @@
+﻿@model List<OrderModel>
+@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "Orders";
+
+}
+<div class="wrapper admin_products">
+    @if (TempData["Message"] != null)
+    {
+        <div class="message">@TempData["Message"]</div>
+    }
+    <div class="pagename">
+        <span>
+            Order List
+        </span>
+    </div>
+    <div class="table_container">
+        <div class="table_wrapper">
+           @if (Model.Count != 0)
+            {
+                <table class="table" border="0">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>Phone</th>
+                            <th>Email</th>
+                            <th>Address</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var order in Model)
+                        {
+                            <tr>
+                                <td data-label="Id">@(order.Id)</td>
+                                <td data-label="Name">@(order.Name)</td>
+                                <td data-label="Phone">@(order.Phone)</td>
+                                <td data-label="Email">@(order.Email)</td>
+                                <td data-label="Address">@(order.Address)</td>
+                                <td data-label="Actions">
+                                    <div class="actions_wrapper">
+                                        <a class="action_link" asp-route-orderId="@(order.Id)" asp-action="OrderView">View</a>
+                                        <a class="action_link" asp-route-orderId="@(order.Id)" asp-action="OrderDelete">Delete</a>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <span>No Orders</span>
+            }
+        </div>
+    </div>
+</div>

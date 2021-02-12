@@ -35,11 +35,6 @@ namespace Shop.Infrastructure
             IUrlHelper urlHelper = helper.GetUrlHelper(ViewContext);
             TagBuilder ul = new TagBuilder("ul");
             ul.AddCssClass("pagination");
-            if ((int)UrlValues["to"] == 0)
-            {
-                UrlValues.Remove("to");
-                UrlValues.Remove("from");
-            }
             if (PageClassesEnabled)
             {
                 ul.AddCssClass("pagination");

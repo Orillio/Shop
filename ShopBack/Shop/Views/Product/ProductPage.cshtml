@@ -1,4 +1,7 @@
 ﻿@model Product
+@{ 
+    ViewData["Title"] = Model.Name;
+}
     <main class="product_page">
         <section class="product">
             <div class="container">
@@ -7,7 +10,7 @@
                     <div class="product-buy-info">
                         <h1>@Model.Name</h1>
                         <p>@Model.ShortDescription</p>
-                        @if (Model.IsDiscount)
+                       @if (Model.IsDiscount)
                         {
                             <span>@Model.DiscountPrice руб</span>
                             <s>@Model.Price руб</s>
@@ -17,6 +20,7 @@
                             <span>@Model.Price руб</span>
                         }
                         <form>
+                            <input type="hidden" value="@Model.Id" id="Id"/>
                             <div class="counter">
                                 <button class="counter__button button_minus" type="button">
                                     <img src="~/img/svg-icons/remove-outline.svg">

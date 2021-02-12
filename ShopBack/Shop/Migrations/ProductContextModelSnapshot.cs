@@ -15,9 +15,40 @@ namespace Shop.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "3.1.6")
+                .HasAnnotation("ProductVersion", "3.1.8")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+            modelBuilder.Entity("Shop.Models.OrderModel", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("OrderComment")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Phone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Orders");
+                });
 
             modelBuilder.Entity("Shop.Models.Product", b =>
                 {
@@ -52,34 +83,34 @@ namespace Shop.Migrations
                     b.ToTable("Products");
                 });
 
-            modelBuilder.Entity("Shop.Models.ProductTag", b =>
+            modelBuilder.Entity("Shop.Models.ProductStringified", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("CategoryName")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int?>("ProductId")
+                    b.Property<int?>("OrderModelId")
                         .HasColumnType("int");
 
-                    b.Property<string>("TagName")
+                    b.Property<string>("ProductName")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ProductQuantity")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("ProductId");
+                    b.HasIndex("OrderModelId");
 
-                    b.ToTable("ProductTag");
+                    b.ToTable("ProductStringified");
                 });
 
-            modelBuilder.Entity("Shop.Models.ProductTag", b =>
+            modelBuilder.Entity("Shop.Models.ProductStringified", b =>
                 {
-                    b.HasOne("Shop.Models.Product", null)
-                        .WithMany("Tags")
-                        .HasForeignKey("ProductId");
+                    b.HasOne("Shop.Models.OrderModel", null)
+                        .WithMany("Products")
+                        .HasForeignKey("OrderModelId");
                 });
 #pragma warning restore 612, 618
         }

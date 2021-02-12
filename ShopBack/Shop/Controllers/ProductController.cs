@@ -65,7 +65,7 @@ namespace Shop.Controllers
             cart.SetItemQuantity(repository.Products.FirstOrDefault(x => x.Id == productId), productQuantity);
             return Accepted();
         }
-        [HttpDelete]
+        [HttpPost]
         public IActionResult DeleteItem(int productId)
         {
             cart.RemoveItem(productId);

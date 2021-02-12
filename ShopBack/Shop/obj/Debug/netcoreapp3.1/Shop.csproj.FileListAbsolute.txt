@@ -130,77 +130,6 @@ C:\Users\pc\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\staticwebassets\S
 C:\Users\pc\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.dll
 C:\Users\pc\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.pdb
 C:\Users\pc\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.genruntimeconfig.cache
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\appsettings.Development.json
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\appsettings.json
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.exe
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.deps.json
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.runtimeconfig.json
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.runtimeconfig.dev.json
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.pdb
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.Views.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.Views.pdb
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.AssemblyInfoInputs.cache
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.AssemblyInfo.cs
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.RazorAssemblyInfo.cache
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.RazorAssemblyInfo.cs
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.TagHelpers.input.cache
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.TagHelpers.output.cache
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.RazorCoreGenerate.cache
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.RazorTargetAssemblyInfo.cache
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.RazorTargetAssemblyInfo.cs
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.Views.pdb
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.csproj.CopyComplete
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\staticwebassets\Shop.StaticWebAssets.Manifest.cache
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\staticwebassets\Shop.StaticWebAssets.xml
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.pdb
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.genruntimeconfig.cache
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.csproj.CoreCompileInputs.cache
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.MvcApplicationPartsAssemblyInfo.cache
-D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Cart\CartList.cshtml.g.cs
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ProductItem.cshtml.g.cs
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Product\ProductPage.cshtml.g.cs
-D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Cart\Default.cshtml.g.cs
 C:\Users\pc\Desktop\C#\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\pc\Desktop\C#\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\pc\Desktop\C#\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -273,4 +202,371 @@ C:\Users\pc\Desktop\C#\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\staticwebasset
 C:\Users\pc\Desktop\C#\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.dll
 C:\Users\pc\Desktop\C#\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.pdb
 C:\Users\pc\Desktop\C#\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.genruntimeconfig.cache
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.Views.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.exe
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.deps.json
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.runtimeconfig.json
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.runtimeconfig.dev.json
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\pc\Desktop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.csprojAssemblyReference.cache
+C:\Users\pc\Desktop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.AssemblyInfoInputs.cache
+C:\Users\pc\Desktop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.AssemblyInfo.cs
+C:\Users\pc\Desktop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\pc\Desktop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.RazorAssemblyInfo.cache
+C:\Users\pc\Desktop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.RazorAssemblyInfo.cs
+C:\Users\pc\Desktop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.TagHelpers.input.cache
+C:\Users\pc\Desktop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.TagHelpers.output.cache
+C:\Users\pc\Desktop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.RazorCoreGenerate.cache
+C:\Users\pc\Desktop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\pc\Desktop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Cart\CartList.cshtml.g.cs
+C:\Users\pc\Desktop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Order\NewOrder.cshtml.g.cs
+C:\Users\pc\Desktop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Order\Thanks.cshtml.g.cs
+C:\Users\pc\Desktop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\pc\Desktop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Product\ProductPage.cshtml.g.cs
+C:\Users\pc\Desktop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Cart\Default.cshtml.g.cs
+C:\Users\pc\Desktop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ProductItem.cshtml.g.cs
+C:\Users\pc\Desktop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\pc\Desktop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\pc\Desktop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\pc\Desktop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.RazorTargetAssemblyInfo.cache
+C:\Users\pc\Desktop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.RazorTargetAssemblyInfo.cs
+C:\Users\pc\Desktop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.Views.pdb
+C:\Users\pc\Desktop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.csproj.CopyComplete
+C:\Users\pc\Desktop\ShopBack\Shop\obj\Debug\netcoreapp3.1\staticwebassets\Shop.StaticWebAssets.Manifest.cache
+C:\Users\pc\Desktop\ShopBack\Shop\obj\Debug\netcoreapp3.1\staticwebassets\Shop.StaticWebAssets.xml
+C:\Users\pc\Desktop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.dll
+C:\Users\pc\Desktop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.pdb
+C:\Users\pc\Desktop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.genruntimeconfig.cache
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.pdb
+C:\Users\pc\Desktop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.Views.pdb
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.exe
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.deps.json
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.runtimeconfig.json
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.runtimeconfig.dev.json
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.pdb
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.Views.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.Views.pdb
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.csprojAssemblyReference.cache
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.AssemblyInfoInputs.cache
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.AssemblyInfo.cs
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.csproj.CoreCompileInputs.cache
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.MvcApplicationPartsAssemblyInfo.cache
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.RazorAssemblyInfo.cache
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.RazorAssemblyInfo.cs
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.TagHelpers.input.cache
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.TagHelpers.output.cache
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.RazorCoreGenerate.cache
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Home.cshtml.g.cs
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Admin\NewProduct.cshtml.g.cs
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ProductEdit.cshtml.g.cs
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ProductList.cshtml.g.cs
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Cart\CartList.cshtml.g.cs
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Order\NewOrder.cshtml.g.cs
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Order\Thanks.cshtml.g.cs
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Product\ProductPage.cshtml.g.cs
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Cart\Default.cshtml.g.cs
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ProductItem.cshtml.g.cs
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminLayout.cshtml.g.cs
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.RazorTargetAssemblyInfo.cache
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.RazorTargetAssemblyInfo.cs
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.Views.pdb
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.csproj.CopyComplete
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\staticwebassets\Shop.StaticWebAssets.Manifest.cache
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\staticwebassets\Shop.StaticWebAssets.xml
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.dll
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.pdb
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.genruntimeconfig.cache
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ProductView.cshtml.g.cs
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Admin\OrderList.cshtml.g.cs
+D:\Yan\Desktop\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Admin\OrderView.cshtml.g.cs
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.exe
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.deps.json
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.runtimeconfig.json
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.runtimeconfig.dev.json
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.pdb
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.Views.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.Views.pdb
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.csprojAssemblyReference.cache
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.AssemblyInfoInputs.cache
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.AssemblyInfo.cs
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.csproj.CoreCompileInputs.cache
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.MvcApplicationPartsAssemblyInfo.cache
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.RazorAssemblyInfo.cache
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.RazorAssemblyInfo.cs
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.TagHelpers.input.cache
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.TagHelpers.output.cache
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.RazorCoreGenerate.cache
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Home.cshtml.g.cs
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Admin\NewProduct.cshtml.g.cs
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Admin\OrderList.cshtml.g.cs
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Admin\OrderView.cshtml.g.cs
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ProductEdit.cshtml.g.cs
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ProductList.cshtml.g.cs
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ProductView.cshtml.g.cs
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Cart\CartList.cshtml.g.cs
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Order\NewOrder.cshtml.g.cs
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Order\Thanks.cshtml.g.cs
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Product\ProductPage.cshtml.g.cs
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Cart\Default.cshtml.g.cs
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ProductItem.cshtml.g.cs
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminLayout.cshtml.g.cs
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.RazorTargetAssemblyInfo.cache
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.RazorTargetAssemblyInfo.cs
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.Views.pdb
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.csproj.CopyComplete
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\staticwebassets\Shop.StaticWebAssets.Manifest.cache
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\staticwebassets\Shop.StaticWebAssets.xml
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.dll
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.pdb
+D:\Yan\Desktop\С# и связанное\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.genruntimeconfig.cache
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.exe
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.deps.json
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.runtimeconfig.json
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.runtimeconfig.dev.json
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.pdb
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.Views.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Shop.Views.pdb
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.csprojAssemblyReference.cache
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.AssemblyInfoInputs.cache
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.AssemblyInfo.cs
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.csproj.CoreCompileInputs.cache
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.MvcApplicationPartsAssemblyInfo.cache
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.RazorAssemblyInfo.cache
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.RazorAssemblyInfo.cs
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.TagHelpers.input.cache
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.TagHelpers.output.cache
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.RazorCoreGenerate.cache
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Admin\Home.cshtml.g.cs
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Admin\NewProduct.cshtml.g.cs
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Admin\OrderList.cshtml.g.cs
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Admin\OrderView.cshtml.g.cs
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ProductEdit.cshtml.g.cs
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ProductList.cshtml.g.cs
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Admin\ProductView.cshtml.g.cs
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Cart\CartList.cshtml.g.cs
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Order\NewOrder.cshtml.g.cs
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Order\Thanks.cshtml.g.cs
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Product\Index.cshtml.g.cs
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Product\ProductPage.cshtml.g.cs
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Cart\Default.cshtml.g.cs
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ProductItem.cshtml.g.cs
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AdminLayout.cshtml.g.cs
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.RazorTargetAssemblyInfo.cache
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.RazorTargetAssemblyInfo.cs
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.Views.pdb
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.csproj.CopyComplete
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\staticwebassets\Shop.StaticWebAssets.Manifest.cache
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\staticwebassets\Shop.StaticWebAssets.xml
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.dll
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.pdb
+D:\Yan\Desktop\C# related\Shop\ShopBack\Shop\obj\Debug\netcoreapp3.1\Shop.genruntimeconfig.cache

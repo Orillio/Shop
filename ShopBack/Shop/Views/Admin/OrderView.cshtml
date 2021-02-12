@@ -1,0 +1,71 @@
+﻿@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = $"View Order #{Model.Id}";
+}
+@model OrderModel
+<div class="wrapper admin_view_product">
+    <div class="pagename">
+        <div>
+            <a asp-action="OrderList">Orders</a> / <span>Order #@Model.Id</span>
+        </div>
+    </div>
+    <div class="product_view_wrapper">
+        <h1>Order Details</h1>
+        <table border="0" class="table_view">
+            <tr>
+                <td>Product Name</td>
+                <td>@Model.Name</td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>@Model.Email</td>
+            </tr>
+            <tr>
+                <td>Phone</td>
+                <td>@Model.Phone rub</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>@Model.Address</td>
+            </tr>
+        </table>
+       @if (!string.IsNullOrWhiteSpace(Model.OrderComment))
+        {
+            <div class="tabs_container">
+                <div class="tabs_wrapper">
+                    <ul class="tabs">
+                        <li data-tab="1" class="current">Order Comment</li>
+                    </ul>
+                </div>
+                <div class="tabs_content">
+                    <div id="1" class="tab_block current">
+                        @Model.OrderComment
+                    </div>
+                </div>
+            </div>
+        }
+        <table border="0" class="table_view product_table">
+            <thead>
+                <tr>
+                    <th>
+                        Product Name
+                    </th>
+                    <th>
+                        Product Quantity
+                    </th>
+                </tr>
+            </thead>
+            @foreach (var p in Model.Products)
+            {
+                <tr>
+                    <td>@p.ProductName</td>
+                    <td>@p.ProductQuantity</td>
+                </tr>
+            }
+        </table>
+        <div class="actions">
+            <a asp-action="OrderDelete" asp-route-orderId="@Model.Id" style="margin-top: 20px;" class="action_link">Delete Order</a>
+        </div>
+    </div>
+</div>
+<script src="~/js/tabs.js"></script>

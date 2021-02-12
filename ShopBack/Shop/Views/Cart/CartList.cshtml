@@ -1,4 +1,7 @@
 ﻿@model Cart
+@{ 
+    ViewData["Title"] = "Cart";
+}
 <main class="cart_page">
     <div class="container">
         <h1>Корзина</h1>
@@ -40,7 +43,7 @@
         <div class="cart_summary">
             <h2>Итого</h2>
             <span class="sum_price"></span>
-            <div class="sum_submit">оформить заказ</div>
+            <a asp-controller="Order" asp-action="NewOrder" class="sum_submit">Оформить заказ</a>
         </div>
     </div>
 </main>

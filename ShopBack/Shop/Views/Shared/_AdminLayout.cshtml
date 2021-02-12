@@ -1,0 +1,39 @@
+﻿
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/css/fonts.css">
+    <link rel="stylesheet" href="~/css/layout.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="~/js/script.js"></script>
+    <title>@ViewData["Title"] | Shop Admin</title>
+</head>
+<body class="admin">
+    <header>
+        <div class="logo_burger">
+            <a asp-action="Home" class="logo_admin">Shop Admin</a>
+            <div class="burger">
+                <div class="burger_item"></div>
+                <div class="burger_item"></div>
+                <div class="burger_item"></div>
+            </div>
+        </div>
+        <a class="logout_icon" asp-controller="Account" asp-action="LogOut"><img src="~/img/svg-icons/logout.svg" alt="logout"></a>
+    </header>
+    <main>
+        <aside>
+            <nav class="admin_navigation">
+                <a asp-action="Home" class="nav_link current">Home</a>
+                <a asp-action="ProductList" class="nav_link">Product List</a>
+                <a asp-action="OrderList" class="nav_link">Orders</a>
+            </nav>
+        </aside>
+
+        @RenderBody()
+
+    </main>
+
+</body>
+</html>

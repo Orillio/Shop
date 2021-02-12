@@ -1,7 +1,7 @@
 ﻿@model Product
 
 <li class="products__item">
-    @if (Model.IsDiscount)
+   @if (Model.IsDiscount)
     {
         <div class="discount">
             <span>@(Model.Discount)%</span>
@@ -9,7 +9,9 @@
     }
     <a asp-action="ProductPage" asp-controller="Product" asp-route-productId="@(Model.Id)">
         
-        <img class="product_img" src="../@(Model.ImageUrl)" alt="sofa">
+        <div class="product_img_wrapper">
+            <img class="product_img" src="../@(Model.ImageUrl)" alt="sofa">
+        </div>
         <div class="short_desc">
             <p>@Model.Name</p>
             @if (Model.IsDiscount)

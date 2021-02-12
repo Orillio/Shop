@@ -1,0 +1,47 @@
+﻿@model OrderModel
+@{
+    ViewData["Title"] = "New Order";
+}
+<main class="order_page">
+    <section class="new_order">
+        <div class="container">
+            <h1>Оформление заказа</h1>
+            <div class="order_wrapper">
+                <form asp-controller="Order" asp-action="NewOrder" method="POST">
+                    <div asp-validation-summary="All"></div>
+                    <h2 data-important>ФИО покупателя</h2>
+                    <input asp-for="Name" type="text" class="input">
+                    <h2 data-important>E-mail покупателя</h2>
+                    <input asp-for="Email"type="text" class="input">
+                    <h2 data-important>Номер телефона</h2>
+                    <input asp-for="Phone" type="text" class="input">
+                    <h2 data-important>Адрес доставки</h2>
+                    <input asp-for="Address" type="text" class="input">
+                    <h2>Комментарий к заказу</h2>
+                    <input asp-for="OrderComment" type="text" class="input">
+                    <button>Подтвердить заказ</button>
+                </form>
+                <div class="products_list_container">
+                    <ul class="product_list">
+                       @foreach (var product in ((ViewData["cart"] as List<CartItem>)))
+                        {
+                            <li class="product_item">
+                                <div class="product_img">
+                                    <img src="~/@(product.Product.ImageUrl)" alt="">
+                                    <span class="product_name">@product.Product.Name</span>
+                                </div>
+                                <div class="price">
+                                    <span class="quantity">@product.Quantity x </span>@product.Product.DiscountPrice руб
+                                </div>
+                            </li>
+                        }
+                    </ul>
+                    <div class="summary">
+                        <span>Итого:</span>
+                        <h2>@((ViewData["cart"] as List<CartItem>).Sum(x => x.Quantity * x.Product.DiscountPrice)) руб</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

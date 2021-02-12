@@ -9,14 +9,32 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="~/js/counter.js"></script>
     <script src="~/js/script.js"></script>
-    <title>@ViewData["Title"] Shop</title>
+    <title>@ViewData["Title"] | Shop</title>
 </head>
 <body>
     <ul class="notifications_list">
     </ul>
     <header>
+        <div class="left-toolbar">
+            <div class="toolbar_list">
+                <a asp-action="Index" asp-controller="Product" asp-route-category="Sofas"
+                   class="@((string)ViewData["CurrentCategory"] == "Sofas" ? "active" : "") toolbar_list__item">Диваны</a>
+                <a asp-action="Index" asp-controller="Product" asp-route-category="ArmChairs"
+                   class="@((string)ViewData["CurrentCategory"] == "ArmChairs" ? "active" : "") toolbar_list__item">Кресла</a>
+                <a asp-action="Index" asp-controller="Product" asp-route-category="Chairs"
+                   class="@((string)ViewData["CurrentCategory"] == "Chairs" ? "active" : "") toolbar_list__item">Стулья</a>
+                <a asp-action="Index" asp-controller="Product" asp-route-category="Tables"
+                   class="@((string)ViewData["CurrentCategory"] == "Tables" ? "active" : "") toolbar_list__item">Столы</a>
+            </div>
+        </div>
         <div class="top_toolbar">
-
+            <div class="burger">
+                <div class="burger_item"></div>
+                <div class="burger_item"></div>
+                <div class="burger_item"></div>
+            </div>
+            @await Component.InvokeAsync("Cart")
+            
         </div>
         <div class="container">
             <div class="header_contacts">
@@ -24,7 +42,12 @@
                 <a href="mailto:lorem@example.com" class="header_contacts__item">lorem@example.com</a>
             </div>
             <a href="/"><div class="logo">Магазинчик</div></a>
-            @await Component.InvokeAsync("Cart")
+            <div class="icons_wrapper">
+                <a asp-controller="Admin" asp-action="Home" class="header_icon user_acc">
+                    <i class="acc_img"></i>
+                </a>
+                @await Component.InvokeAsync("Cart")
+            </div>
         </div>
     </header>
     <nav>
@@ -50,9 +73,9 @@
             </div>
         </div>
     </nav>
-    <main>
-        @RenderBody()
-    </main>
+
+    @RenderBody()
+
     <footer>
         <span>Все права почти защищены</span>
     </footer>

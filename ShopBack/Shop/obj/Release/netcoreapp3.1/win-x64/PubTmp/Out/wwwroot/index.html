@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/script.js"></script>
+    <title>@ViewData["Title"] | Shop</title>
+</head>
+<body>
+    <ul class="notifications_list">
+    </ul>
+    <header>
+        <div class="left-toolbar">
+            <div class="toolbar_list">
+                <a href="#" class="toolbar_list__item active">Диваны</a>
+                <a href="#" class="toolbar_list__item">Кресла</a>
+                <a href="#" class="toolbar_list__item">Стулья</a>
+                <a href="#" class="toolbar_list__item">Столы</a>
+            </div>
+        </div>
+        <div class="top_toolbar">
+            <div class="burger">
+                <div class="burger_item"></div>
+                <div class="burger_item"></div>
+                <div class="burger_item"></div>
+            </div>
+            <a asp-action="CartList" asp-controller="Cart" class="header_icon toolbar_cart">
+                <span class="cart_count">1</span>
+                <i class="cart_img"></i>
+            </a>
+        </div>
+        <div class="container">
+            <div class="header_contacts">
+                <a href="tel:78000000000" class="header_contacts__item">+7(800)000-00-00</a>
+                <a href="mailto:lorem@example.com" class="header_contacts__item">lorem@example.com</a>
+            </div>
+            <a href="/"><div class="logo">Магазинчик</div></a>
+            <div class="icons_wrapper">
+                <a asp-controller="Admin" asp-action="Home" class="header_icon user_acc">
+                    <i class="acc_img"></i>
+                </a>
+                <a asp-action="CartList" asp-controller="Cart" class="header_icon">
+                    <span class="cart_count">1</span>
+                    <i class="cart_img"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <div class="cats__wrapper">
+                <ul>
+                    <li class="category_active">
+                        <a asp-action="Index" asp-controller="Product" asp-route-category="Sofas">Диваны</a>
+                    </li>
+
+                    <li>
+                        <a asp-action="Index" asp-controller="Product" asp-route-category="ArmChairs">Кресла</a>
+                    </li>
+
+                    <li>
+                        <a asp-action="Index" asp-controller="Product" asp-route-category="Chairs">стулья</a>
+                    </li>
+
+                    <li>
+                        <a asp-action="Index" asp-controller="Product" asp-route-category="Tables">столы</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <main class="all_collections">
+        <div class="container">
+            <div class="wrapper">
+                <aside>
+                    <h1>Фильтр по цене</h1>
+                    <ul class="filter_wrapper">
+                        <li class="price_filter">
+                            <div class="price_filter_flex_wrapper">
+                                <span>От</span>
+                                <input placeholder="Руб" type="text" onfocus="this.classList.remove('valid_error')"
+                                       onkeydown="return specialText(this, event)" maxlength="8" 
+                                        class="price_filter_input from">
+                            </div>
+                            <div class="price_filter_flex_wrapper">
+                                <span>До</span>
+                                <input placeholder="Руб" type="text" onfocus="this.classList.remove('valid_error')"
+                                       onkeydown="return specialText(this, event)" maxlength="8"
+                                        class="price_filter_input to">
+                            </div>
+                            <button class="price_filter_button">Применить</button>
+                        </li>
+                    </ul>
+                </aside>
+                <section>
+                    <div class="cat_top">
+                        <h1>Каталог</h1>
+                        <select>
+                            <option disabled value="">Сортировать</option>
+                            <option selected value="">по возрастанию цены</option>
+                            <option value="">по убыванию цены</option>
+                        </select>
+                    </div>
+    
+                    <ul class="categories">
+                        <li class="categories__wrapper">
+                            <div class="categories__item">
+                                <a asp-action="Index" asp-controller="Product" asp-route-category="Sofas">
+                                    <img class="cat_img" src="../img/catImg/sofas.jpg" alt="">
+                                    <span>Диваны</span>
+                                </a>
+                            </div>
+                            <div class="categories__item">
+                                <a asp-action="Index" asp-controller="Product" asp-route-category="ArmChairs">
+                                    <img class="cat_img" src="../img/catImg/armchairs.jpg" alt="">
+                                    <span>Кресла</span>
+                                </a>
+                            </div>
+                        </li>
+                        <li class="categories__wrapper">
+                            <div class="categories__item">
+                                <a asp-action="Index" asp-controller="Product" asp-route-category="Chairs">
+                                    <img class="cat_img" src="../img/catImg/chairs.jpg" alt="">
+                                    <span>Стулья</span>
+                                </a>
+                            </div>
+                            <div class="categories__item">
+                                <a asp-action="Index" asp-controller="Product" asp-route-category="Tables">
+                                    <img class="cat_img" src="../img/catImg/tables.jpg" alt="">
+                                    <span>Столы</span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+    
+                    <ul class="products">
+                        <li class="products__item">
+                            <div class="discount">
+                                <span>5%</span>
+                            </div>
+                             <a asp-action="ProductPage" asp-controller="Product" asp-route-productId="@(Model.Id)">
+                                 
+                                 <div class="product_img_wrapper">
+                                     <img class="product_img" src="/img/Chairs/Стул Fan.jpg" alt="sofa">
+                                 </div>
+                                 <div class="short_desc">
+                                     <p>@Model.Name</p>
+                                        <h5><s style="color: #aaa;">10000&nbsp;руб</s></h5>
+                                     <h5>10000</h5>
+                                 </div>
+                             </a>
+                         </li>
+                         <li class="products__item">
+                            <div class="discount">
+                                <span>5%</span>
+                            </div>
+                             <a asp-action="ProductPage" asp-controller="Product" asp-route-productId="@(Model.Id)">
+                                 
+                                 <div class="product_img_wrapper">
+                                     <img class="product_img" src="/img/Chairs/Стул Fan.jpg" alt="sofa">
+                                 </div>
+                                 <div class="short_desc">
+                                     <p>@Model.Name</p>
+                                        <h5><s style="color: #aaa;">10000&nbsp;руб</s></h5>
+                                     <h5>10000</h5>
+                                 </div>
+                             </a>
+                         </li>
+                         <li class="products__item">
+                            <div class="discount">
+                                <span>5%</span>
+                            </div>
+                             <a asp-action="ProductPage" asp-controller="Product" asp-route-productId="@(Model.Id)">
+                                 
+                                 <div class="product_img_wrapper">
+                                     <img class="product_img" src="/img/Chairs/Стул Fan.jpg" alt="sofa">
+                                 </div>
+                                 <div class="short_desc">
+                                     <p>@Model.Name</p>
+                                        <h5><s style="color: #aaa;">10000&nbsp;руб</s></h5>
+                                     <h5>10000</h5>
+                                 </div>
+                             </a>
+                         </li>
+                         <li class="products__item">
+                            <div class="discount">
+                                <span>5%</span>
+                            </div>
+                             <a asp-action="ProductPage" asp-controller="Product" asp-route-productId="@(Model.Id)">
+                                 
+                                 <div class="product_img_wrapper">
+                                     <img class="product_img" src="/img/Chairs/Стул Fan.jpg" alt="sofa">
+                                 </div>
+                                 <div class="short_desc">
+                                     <p>@Model.Name</p>
+                                        <h5><s style="color: #aaa;">10000&nbsp;руб</s></h5>
+                                     <h5>10000</h5>
+                                 </div>
+                             </a>
+                         </li>
+                         <li class="products__item">
+                            <div class="discount">
+                                <span>5%</span>
+                            </div>
+                             <a asp-action="ProductPage" asp-controller="Product" asp-route-productId="@(Model.Id)">
+                                 
+                                 <div class="product_img_wrapper">
+                                     <img class="product_img" src="/img/Chairs/Стул Fan.jpg" alt="sofa">
+                                 </div>
+                                 <div class="short_desc">
+                                     <p>@Model.Name</p>
+                                        <h5><s style="color: #aaa;">10000&nbsp;руб</s></h5>
+                                     <h5>10000</h5>
+                                 </div>
+                             </a>
+                         </li>
+                         <li class="products__item">
+                            <div class="discount">
+                                <span>5%</span>
+                            </div>
+                             <a asp-action="ProductPage" asp-controller="Product" asp-route-productId="@(Model.Id)">
+                                 
+                                 <div class="product_img_wrapper">
+                                     <img class="product_img" src="/img/Chairs/Стул Fan.jpg" alt="sofa">
+                                 </div>
+                                 <div class="short_desc">
+                                     <p>@Model.Name</p>
+                                        <h5><s style="color: #aaa;">10000&nbsp;руб</s></h5>
+                                     <h5>10000</h5>
+                                 </div>
+                             </a>
+                         </li>
+                         
+                    </ul>
+                    <div page-model="Model.PagingInfo" page-action="Index" page-classes-enabled="true" page-class="page"
+                        page-class-secondary="page_secondary" page-class-selected="page_active" page-url-route-category="@ViewData["CurrentCategory"]"
+                         page-url-route-from="@Model.PriceInfo.From" page-url-route-to="@Model.PriceInfo.To">
+    
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <span>Все права почти защищены</span>
+    </footer>
+</body>
+</html>

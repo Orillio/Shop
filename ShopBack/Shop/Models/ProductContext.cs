@@ -14,5 +14,13 @@ namespace Shop.Models
         {
         }
         public DbSet<Product> Products { get; set; }
+        public DbSet<OrderModel> Orders { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<OrderModel>()
+                .HasMany(x => x.Products)
+                .WithOne()
+                .OnDelete(DeleteBehavior.Cascade);
+        }
     }
 }

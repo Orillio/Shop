@@ -1,4 +1,7 @@
-﻿@model ProductsViewModel
+﻿@{
+    ViewData["Title"] = "Home";
+}
+@model ProductsViewModel
 <main class="all_collections">
     <div class="container">
         <div class="wrapper">
@@ -71,7 +74,7 @@
                 </ul>
                 <div page-model="Model.PagingInfo" page-action="Index" page-classes-enabled="true" page-class="page"
                     page-class-secondary="page_secondary" page-class-selected="page_active" page-url-route-category="@ViewData["CurrentCategory"]"
-                    page-url-route-from="@Model.PriceInfo.From" page-url-route-to="@Model.PriceInfo.To">
+                     page-url-route-from="@Model.PriceInfo.From" page-url-route-to="@Model.PriceInfo.To">
 
                 </div>
             </section>

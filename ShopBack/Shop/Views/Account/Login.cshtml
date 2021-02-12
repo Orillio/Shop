@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Login";
+}
+
+@model LoginModel
+<main>
+    <section class="login">
+        <div class="container">
+            <h1>Вход в аккаунт администратора</h1>
+            <form asp-controller="Account" asp-action="Login" method="POST">
+                <div asp-validation-summary="All"></div>
+                <h2 data-important>Логин</h2>
+                <input asp-for="Name" type="text" class="input">
+                <h2 data-important>Пароль</h2>
+                <input asp-for="Password" type="password" class="input">
+                <input type="hidden" asp-for="ReturnUrl" value="@(Model.ReturnUrl)"/>
+                <button>Войти</button>
+            </form>
+        </div>
+    </section>
+</main>

@@ -1,0 +1,69 @@
+﻿@{
+    Layout = "_AdminLayout";
+    ViewData["Title"] = $"Edit {Model.Name} ";
+}
+@model ProductModel
+<div class="wrapper admin_new_product">
+    <div class="pagename">
+        <div>
+            <a href="/">Products</a> / <span>Edit Product #@Model.Id</span>
+        </div>
+    </div>
+    <div class="admin_form_wrapper">
+        <form enctype="multipart/form-data" class="admin_form" asp-action="ProductEdit" method="post">
+            <div class="admin_input_wrapper">
+                <span>Name*</span>
+                <input asp-for="Name" type="text" class="admin_input">
+                <input type="hidden" asp-for="Id"/>
+                <span class="validat_error">Required</span>
+            </div>
+            <div class="admin_input_wrapper">
+                <span>Category*</span>
+                <select asp-for="Category" class="admin_select">
+                    <option value="Sofas">Sofa</option>
+                    <option value="Chairs">Chair</option>
+                    <option value="ArmChairs">ArmChair</option>
+                    <option value="Tables">Table</option>
+                </select>
+                <span class="validat_error">Required</span>
+            </div>
+            <div class="admin_input_wrapper">
+                <span>Price*</span>
+                <input onkeydown="return priceValidate(this, event)" asp-for="Price" maxlength="12" type="text" class="admin_input">
+                <span class="validat_error">Required</span>
+            </div>
+            <div class="admin_input_wrapper checkbox_align">
+                <input asp-for="IsDiscount" name="disc" id="disc" class="admin_checkbox" type="checkbox">
+                <label for="disc" class="checkbox_label">Discount</label>
+            </div>
+            <div class="admin_input_wrapper">
+                <span>Discount &nbsp;Percent</span>
+                <input asp-for="Discount" value="" accept="image/*" onkeydown="return percentValidate(this, event)" maxlength="3" readonly type="text" class="admin_input discount_readonly">
+            </div>
+            <div class="admin_input_wrapper">
+                <span>Short Description*</span>
+                <textarea asp-for="ShortDescription" type="text" class="admin_input admin_textarea"></textarea>
+                <span class="validat_error">Required</span>
+            </div>
+            <div class="admin_input_wrapper">
+                <span>Long Description*</span>
+                <textarea asp-for="LongDescription" long type="text" class="admin_input admin_textarea"></textarea>
+                <span class="validat_error">Required</span>
+            </div>
+            <div class="admin_input_wrapper">
+                <span>Upload &nbsp;photo*</span>
+                <input id="file" name="file" asp-for="File" accept="image/*" onchange="onChange(event);" type="file">
+                <input type="hidden" asp-for="FileUrl" />
+                <label class="file_input_label" for="file">Upload image</label>
+                <span class="validat_error">Required</span>
+                <div id="file_input_image">
+                    <img width="250" src="~/@Model.FileUrl" alt="img" />
+                </div>
+            </div>
+            <button class="submit" type="submit">Edit Product</button>
+        </form>
+    </div>
+</div>
+<script src="~/js/checkbox.js"></script>
+<script src="~/js/uploadFile.js"></script>
+<script src="~/js/addFileList.js"></script>

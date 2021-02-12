@@ -1,0 +1,62 @@
+﻿@{ 
+    Layout = "_AdminLayout";
+    ViewData["Title"] = $"View Product #{Model.Id}";
+}
+@model ProductModel
+<div class="wrapper admin_view_product">
+    <div class="pagename">
+        <div>
+            <a asp-action="ProductList">Products</a> / <span>Product #@Model.Id</span>
+        </div>
+    </div>
+    <div class="product_view_wrapper">
+        <h1>Product Details</h1>
+        <table border="0" class="table_view">
+            <tr>
+                <td>Product Name</td>
+                <td>@Model.Name</td>
+            </tr>
+            <tr>
+                <td>Category</td>
+                <td>@Model.Category</td>
+            </tr>
+            <tr>
+                <td>Price</td>
+                <td>@Model.Price rub</td>
+            </tr>
+           @if (Model.IsDiscount)
+            {
+                <tr>
+                    <td>Discount</td>
+                    <td>@Model.Discount%</td>
+                </tr>
+                <tr>
+                    <td>Discount Price</td>
+                    <td>@Model.Price rub</td>
+                </tr>
+            }
+        </table>
+        <div class="tabs_container">
+            <div class="tabs_wrapper">
+                <ul class="tabs">
+                    <li data-tab="1" class="current">Short Desc.</li>
+                    <li data-tab="2">Long Desc.</li>
+                </ul>
+            </div>
+            <div class="tabs_content">
+                <div id="1" class="tab_block current">
+                    @Model.ShortDescription
+                </div>
+                <div id="2" class="tab_block">
+                    @Model.LongDescription
+                </div>
+            </div>
+        </div>
+        <img width="250" src="~/@Model.FileUrl" alt="product">
+        <div class="actions">
+            <a asp-action="ProductDelete" asp-route-productId="@Model.Id" class="action_link">Delete Product</a>
+            <a asp-action="ProductEdit" asp-route-model="@Model" class="action_link">Edit Product</a>
+        </div>
+    </div>
+</div>
+<script src="~/js/tabs.js"></script>

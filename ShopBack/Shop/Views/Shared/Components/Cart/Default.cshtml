@@ -1,4 +1,4 @@
-﻿<a asp-action="CartList" asp-controller="Cart" class="cart">
+﻿<a asp-action="CartList" asp-controller="Cart" class="header_icon toolbar_cart">
     @if ((ViewData["Cart"] as List<CartItem>).Any())
     {
         <span class="cart_count">@((ViewData["Cart"] as List<CartItem>).Count())</span>

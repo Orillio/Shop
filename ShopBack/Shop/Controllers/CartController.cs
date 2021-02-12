@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 using Shop.Models;
 
 namespace Shop.Controllers
@@ -15,15 +16,6 @@ namespace Shop.Controllers
         {
             Cart = cartService;
             Repository = rep;
-        }
-        public IActionResult AddToCart(int productId)
-        {
-            var product = Repository.Products.FirstOrDefault(x => productId == x.Id);
-            if (product != null)
-            {
-                Cart.AddItem(product, 1);
-            }
-            return RedirectToAction("Index", "Product", RouteData.Values);
         }
         public IActionResult CartList()
         {

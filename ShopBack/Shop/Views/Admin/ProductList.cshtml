@@ -1,0 +1,78 @@
+﻿@model AdminProductsViewModel
+@{ 
+    Layout = "_AdminLayout";
+    ViewData["Title"] = "Products";
+
+}
+<div class="wrapper admin_products">
+   @if (TempData["Message"] != null)
+    {
+        <div class="message">@TempData["Message"]</div>
+    }
+    <div class="pagename">
+        <span>
+            Product List
+        </span>
+        <a asp-action="NewProduct" class="new_product">New Product</a>
+    </div>
+    <div class="table_container">
+        <div class="scopes">
+            <a asp-controller="Admin" asp-action="ProductList"
+               class="scopes_item @(Model.CurrentScope == null ? "scope_current" : String.Empty)">
+                <h3>All</h3>
+                <span>(@Model.AllProducts.Count)</span>
+            </a>
+            <a asp-action="ProductList" asp-route-scope="Armchairs"
+               class="scopes_item @(Model.CurrentScope == "Armchairs" ? "scope_current" : String.Empty)">
+                <h3>Armchairs</h3>
+                <span>(@Model.AllProducts.Count(x => x.Category == "ArmChairs"))</span>
+            </a>
+            <a asp-action="ProductList" asp-route-scope="Sofas"
+               class="scopes_item @(Model.CurrentScope == "Sofas" ? "scope_current" : String.Empty)">
+                <h3>Sofas</h3>
+                <span>(@Model.AllProducts.Count(x => x.Category == "Sofas"))</span>
+            </a>
+            <a asp-action="ProductList" asp-route-scope="Chairs"
+               class="scopes_item @(Model.CurrentScope == "Chairs" ? "scope_current" : String.Empty)">
+                <h3>Chairs</h3>
+                <span>(@Model.AllProducts.Count(x => x.Category == "Chairs"))</span>
+            </a>
+            <a asp-action="ProductList" asp-route-scope="Tables"
+               class="scopes_item @(Model.CurrentScope == "Tables" ? "scope_current" : String.Empty)">
+                <h3>Tables</h3>
+                <span>(@Model.AllProducts.Count(x => x.Category == "Tables"))</span>
+            </a>
+        </div>
+        <div class="table_wrapper">
+            <table class="table" border="0">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Name</th>
+                        <th>Category</th>
+                        <th>Price</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                   @foreach (var p in Model.FilteredProducts)
+                    {
+                        <tr>
+                            <td data-label="Id">@(p.Id)</td>
+                            <td data-label="Name">@(p.Name)</td>
+                            <td data-label="Category">@(p.Category)</td>
+                            <td data-label="Price">@(p.DiscountPrice) rub</td>
+                            <td data-label="Actions">
+                                <div class="actions_wrapper">
+                                    <a class="action_link" asp-route-productId="@(p.Id)" asp-action="ProductView">View</a>
+                                    <a class="action_link" asp-route-productId="@(p.Id)" asp-action="ProductEdit">Edit</a>
+                                    <a class="action_link" asp-route-productId="@(p.Id)" asp-route-scope="@Model.CurrentScope" asp-action="ProductDelete">Delete</a>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
